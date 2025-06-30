@@ -10,10 +10,7 @@
 						"m_aValues",
 						[
 							{
-								"AddItemAfter": [
-									"cafe4d4cb784b2cc",
-									"cafe7d4f9c2207c4"
-								]
+								"AddItemAfter": ["cafe4d4cb784b2cc", "cafe7d4f9c2207c4"]
 							}
 						]
 					]

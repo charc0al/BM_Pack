@@ -28,10 +28,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe03beda7c9fc3",
-								"cafe8e78abf53416"
-							],
+							"value": ["cafe03beda7c9fc3", "cafe8e78abf53416"],
 							"postInit": true
 						}
 					},

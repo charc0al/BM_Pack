@@ -7,18 +7,14 @@
 	"description": "A collection of Blood Money themed mods",
 	"authors": ["Charc0al"],
 	"frameworkVersion": "2.33.26",
-	"contentFolders": [
-		"content/bloodmoneypack", "content/Bloody47", "content/MoreBlood", "content/smallobjectives"
-	],
+	"contentFolders": ["content/bloodmoneypack", "content/Bloody47", "content/MoreBlood", "content/smallobjectives"],
 	"options": [
 		{
 			"name": "44 Magnum",
 			"tooltip": "Check this if you're using the 44 magnum",
 			"group": "Other",
 			"type": "checkbox",
-			"contentFolders": [
-				"content/Revolver"
-			]
+			"contentFolders": ["content/Revolver"]
 		}
 	]
 }
