@@ -1,9 +1,24 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"version": "1.0.0",
+	"updateCheck": "https://github.com/charc0al/BM_Pack/releases/latest/download/updates.json",
+	"id": "Charc0al.BloodMoneyPack",
+	"name": "Blood Money Pack",
+	"description": "A collection of Blood Money themed mods",
+	"authors": ["Charc0al"],
+	"frameworkVersion": "2.33.26",
+	"contentFolders": [
+		"content/bloodmoneypack", "content/Bloody47", "content/MoreBlood", "content/smallobjectives"
+	],
+	"options": [
+		{
+			"name": "44 Magnum",
+			"tooltip": "Check this if you're using the 44 magnum",
+			"group": "Other",
+			"type": "checkbox",
+			"contentFolders": [
+				"content/Revolver"
+			]
+		}
+	]
 }

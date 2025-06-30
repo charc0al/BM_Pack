@@ -1,0 +1,59 @@
+{
+    "tempHash": "0068D4C84802AF24",
+    "tbluHash": "00C12D86C3AB67BF",
+    "patch": [
+      {
+        "AddEntity": [
+          "feedb7e70f7a142a",
+          {
+            "parent": "23e01c9e0537f4c7",
+            "name": "Keyword_ITEM_POISON",
+            "factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entityblueprint",
+            "properties": {
+              "m_aHolders": {
+                "type": "TArray<SEntityTemplateReference>",
+                "value": ["5a0f593504c7285b"]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "AddEntity": [
+          "feed9f84748f28c6",
+          {
+            "parent": "23e01c9e0537f4c7",
+            "name": "Keyword_ITEM_POISON_SEDATIVE",
+            "factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_sedative.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_sedative.entitytemplate].pc_entityblueprint",
+            "properties": {
+              "m_aHolders": {
+                "type": "TArray<SEntityTemplateReference>",
+                "value": ["5a0f593504c7285b"]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "AddEntity": [
+          "feed0c2614e39498",
+          {
+            "parent": "23e01c9e0537f4c7",
+            "name": "Keyword_ITEMRULE_VIAL_SMALL",
+            "factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_vial_small.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_vial_small.entitytemplate].pc_entityblueprint",
+            "properties": {
+              "m_aHolders": {
+                "type": "TArray<SEntityTemplateReference>",
+                "value": ["5a0f593504c7285b"]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "patchVersion": 6
+  }
+  

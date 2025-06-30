@@ -1,0 +1,1 @@
+{"tempHash":"0093B7139387B988","tbluHash":"004D99E9BEC3EA51","patch":[{"SubEntityOperation":["e8443db6ea12b268",{"SetPropertyValue":{"property_name":"m_vPositionOffset","value":{"x":65,"y":62,"z":0}}}]},{"SubEntityOperation":["e8443db6ea12b268",{"SetPropertyValue":{"property_name":"m_vSize","value":{"x":70,"y":70}}}]}],"patchVersion":6}

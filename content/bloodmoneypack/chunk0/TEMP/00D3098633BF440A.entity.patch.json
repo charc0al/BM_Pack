@@ -1,0 +1,1 @@
+{"tempHash":"00D3098633BF440A","tbluHash":"005FB5DA5190AB21","patch":[{"SubEntityOperation":["32a9457f935de5c5",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}}}]},{"SubEntityOperation":["32a9457f935de5c5",{"SetPropertyValue":{"property_name":"m_fOuterConeAngle","value":0}}]}],"patchVersion":6}

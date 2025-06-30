@@ -1,0 +1,18 @@
+{
+    "tempHash": "00FC750EA906ADFE",
+    "tbluHash": "0069F8A39228141C",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "a4a744f6223a0737",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "Texture2D_01_enab",
+                        "value": false
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

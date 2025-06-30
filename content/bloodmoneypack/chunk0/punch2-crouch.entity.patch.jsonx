@@ -1,0 +1,170 @@
+{
+	"tempHash": "00D347CBA29EE6BA",
+	"tbluHash": "000A263E54999100",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafece8f11db501f",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "Sucker Punch",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe794dad33c301",
+				{
+					"parent": "cafe66a40135869c",
+					"name": "HeroStateConditionEntity",
+					"factory": "[modules:/zherostateconditionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zherostateconditionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eState": {
+							"type": "EHeroGameState",
+							"value": "eHGS_Sneaking"
+						}
+					},
+					"events": {
+						"OnTrue": { "SetTrue": ["cafedf46bd15c9f6"] },
+						"OnFalse": { "SetFalse": ["cafedf46bd15c9f6"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5a559e727f59",
+				{
+					"parent": "cafe66a40135869c",
+					"name": "Umbrella",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe8e78abf53416",
+								"cafedf46bd15c9f6"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "Activate": ["cafe05801a812606"] },
+						"OnFalse": { "Deactivate": ["cafe05801a812606"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedf46bd15c9f6",
+				{
+					"parent": "cafe794dad33c301",
+					"name": "Sneak Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe05801a812606",
+				{
+					"parent": "cafe66a40135869c",
+					"name": "HM5CrippleBox",
+					"factory": "[modules:/zhm5cripplebox.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5cripplebox.class].pc_entityblueprint",
+					"properties": {
+						"m_bCloseCombatStandard": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8e78abf53416",
+				{
+					"parent": "cafe66a40135869c",
+					"name": "GameTensionCondition_Check",
+					"factory": "[modules:/zgametensioncondition.class].pc_entitytype",
+					"blueprint": "[modules:/zgametensioncondition.class].pc_entityblueprint",
+					"properties": {
+						"m_eMaxTension": {
+							"type": "EGameTension",
+							"value": "EGT_AlertedHigh"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1bd77d951e27",
+				{
+					"parent": "cafe5a559e727f59",
+					"name": "On ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3b202dc1cb4e",
+				{
+					"parent": "cafe794dad33c301",
+					"name": "Invert",
+					"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_rCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafedf46bd15c9f6",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe66a40135869c",
+				{
+					"parent": "cafe21d0265ae24c",
+					"name": "Sneak 100",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe21d0265ae24c",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "Sucker Punch",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

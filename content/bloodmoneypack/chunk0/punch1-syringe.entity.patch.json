@@ -1,0 +1,346 @@
+{
+	"tempHash": "00D347CBA29EE6BA",
+	"tbluHash": "000A263E54999100",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafece8f11db501f",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "Sucker Punch",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5a559e727f59",
+				{
+					"parent": "cafe601ca7f38842",
+					"name": "Umbrella",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe03beda7c9fc3",
+								"cafe8e78abf53416"
+							],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "Activate": ["cafe05801a812606"] },
+						"OnFalse": { "Deactivate": ["cafe05801a812606"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe05801a812606",
+				{
+					"parent": "cafe601ca7f38842",
+					"name": "HM5CrippleBox",
+					"factory": "[modules:/zhm5cripplebox.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5cripplebox.class].pc_entityblueprint",
+					"properties": {
+						"m_bCloseCombatStandard": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9c7c19dc1d25",
+				{
+					"parent": "cafe3fbd9ff59800",
+					"name": "zheroitemcondition Poison",
+					"factory": "[modules:/zheroitemcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zheroitemcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_bCheckEquippedItem": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bCheckInventory": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rKeywords": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe06e2715d7d9d"
+						}
+					},
+					"events": {
+						"OnTrue": { "SetTrue": ["cafedc158d1919a6"] },
+						"OnFalse": { "SetFalse": ["cafedc158d1919a6"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedc158d1919a6",
+				{
+					"parent": "cafe9c7c19dc1d25",
+					"name": "Equipped Syringe ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8e78abf53416",
+				{
+					"parent": "cafe601ca7f38842",
+					"name": "GameTensionCondition_Check",
+					"factory": "[modules:/zgametensioncondition.class].pc_entitytype",
+					"blueprint": "[modules:/zgametensioncondition.class].pc_entityblueprint",
+					"properties": {
+						"m_eMaxTension": {
+							"type": "EGameTension",
+							"value": "EGT_AlertedHigh"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe95dba4704118",
+				{
+					"parent": "cafe601ca7f38842",
+					"name": "Umbrella Equip Check",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ANY"
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafedc158d1919a6"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "SetTrue": ["cafe03beda7c9fc3"] },
+						"OnFalse": { "SetFalse": ["cafe03beda7c9fc3"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe03beda7c9fc3",
+				{
+					"parent": "cafe95dba4704118",
+					"name": "Criple ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3fbd9ff59800",
+				{
+					"parent": "cafe601ca7f38842",
+					"name": "Keywords",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe06e2715d7d9d",
+				{
+					"parent": "cafe9c7c19dc1d25",
+					"name": "Poison",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_syringe.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_syringe.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec3add7056a35",
+				{
+					"parent": "cafe3fbd9ff59800",
+					"name": "zheroitemcondition Fiber",
+					"factory": "[modules:/zheroitemcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zheroitemcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_bCheckEquippedItem": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bCheckInventory": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rKeywords": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe672070311b29"
+						}
+					},
+					"events": {
+						"OnTrue": { "SetTrue": ["cafe4d4cb784b2cc"] },
+						"OnFalse": { "SetFalse": ["cafe4d4cb784b2cc"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4d4cb784b2cc",
+				{
+					"parent": "cafec3add7056a35",
+					"name": "Equipped Fiberwire ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe672070311b29",
+				{
+					"parent": "cafec3add7056a35",
+					"name": "Fiberwire",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_fiberwire.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_fiberwire.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1bd77d951e27",
+				{
+					"parent": "cafe5a559e727f59",
+					"name": "On ValueBool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe601ca7f38842",
+				{
+					"parent": "cafece8f11db501f",
+					"name": "Punch Fix",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe23be2f75da62",
+				{
+					"parent": "cafea2d73ff15dd8",
+					"name": "HeroStateConditionEntity",
+					"factory": "[modules:/zherostateconditionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zherostateconditionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eState": {
+							"type": "EHeroGameState",
+							"value": "eHGS_Sneaking"
+						}
+					},
+					"events": {
+						"OnTrue": { "SetTrue": ["cafe7d4f9c2207c4"] },
+						"OnFalse": { "SetFalse": ["cafe7d4f9c2207c4"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7d4f9c2207c4",
+				{
+					"parent": "cafe23be2f75da62",
+					"name": "Sneak Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed2cc4843d81b",
+				{
+					"parent": "cafea2d73ff15dd8",
+					"name": "GameTensionCondition_Check",
+					"factory": "[modules:/zgametensioncondition.class].pc_entitytype",
+					"blueprint": "[modules:/zgametensioncondition.class].pc_entityblueprint",
+					"properties": {
+						"m_eMaxTension": {
+							"type": "EGameTension",
+							"value": "EGT_AlertedHigh"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebe63ad46d796",
+				{
+					"parent": "cafe23be2f75da62",
+					"name": "Invert",
+					"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_rCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe7d4f9c2207c4",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea2d73ff15dd8",
+				{
+					"parent": "cafece8f11db501f",
+					"name": "Sneak 100",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,58 @@
+{
+  "tempHash": "002D00EA62838BBB",
+  "tbluHash": "00D4A9C8B4F0B1BC",
+  "patch": [
+    {
+      "AddEntity": [
+        "feed774bf1e12aee",
+        {
+          "parent": "a0d3bebfd400ef03",
+          "name": "Keyword_ITEM_POISON_FAST",
+          "factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_fast.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_fast.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_aHolders": {
+              "type": "TArray<SEntityTemplateReference>",
+              "value": ["580b83d79bde9142"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "feed7baeec467d06",
+        {
+          "parent": "a0d3bebfd400ef03",
+          "name": "Keyword_ITEMRULE_VIAL_SMALL",
+          "factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_vial_small.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_vial_small.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_aHolders": {
+              "type": "TArray<SEntityTemplateReference>",
+              "value": ["580b83d79bde9142"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "feed36083b2bf348",
+        {
+          "parent": "a0d3bebfd400ef03",
+          "name": "Keyword_ITEM_POISON",
+          "factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_aHolders": {
+              "type": "TArray<SEntityTemplateReference>",
+              "value": ["580b83d79bde9142"]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

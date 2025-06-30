@@ -1,0 +1,13 @@
+{
+	"tempHash": "00F108740210E191",
+	"tbluHash": "00B4545E0A6F168D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1b933c44ac2a17fc",
+				{ "SetPropertyValue": { "property_name": "m_fBlodSplatSizeMultiplier", "value": 4.4 } }
+			]
+		}
+	],
+	"patchVersion": 6
+}
