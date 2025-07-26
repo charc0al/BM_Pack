@@ -15,6 +15,13 @@
 			"group": "Other",
 			"type": "checkbox",
 			"contentFolders": ["content/Revolver"]
+		},
+		{
+			"name": "Tests",
+			"tooltip": "Test thrown item properties",
+			"group": "Other",
+			"type": "checkbox",
+			"contentFolders": ["content/test"]
 		}
 	]
 }

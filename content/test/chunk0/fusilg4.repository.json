@@ -1,0 +1,27 @@
+{
+    "16edb112-58cc-4069-a7dd-ebd258b14044": {
+        "ActorConfiguration": {
+            "BulletsPerMagazine": 40.0,
+            "Perks": [
+                "piercing"
+            ],
+            "Piercing": true
+        },
+        "AppliedModifiers": [
+            "a95efa65-970a-48bc-96f7-d188daa4fd10",
+            "626686f9-a60a-4795-b826-2f66186e5f9d"
+        ],
+		"CanPistolWhip": true,
+        "CarryAnimSetType": "EAST_CARRY_1HANDEDWEAPON",
+		"ItemHandsCoverAnimLayer": "IH_ONEHANDED",
+        "ItemHandsIdle": "IH_ONEHANDED",
+        "ItemHandsUse": "IH_ONEHANDED",
+		"MeleeDamageBehavior": "EIMDB_Slashing",
+        "PrimaryConfiguration": {
+            "Piercing": true,
+            "PointShootingAllowed": true
+        },
+        "RagdollImpactUpkick": 0.0,
+        "Stackable": true
+    }
+}

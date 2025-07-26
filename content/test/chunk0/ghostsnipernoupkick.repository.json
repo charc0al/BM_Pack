@@ -1,0 +1,25 @@
+{
+    "f301f605-007c-4fe1-aa99-a8cd2cae033f": {
+        "ActorConfiguration": {
+            "RagdollImpactForce": 75,
+            "RagdollImpactUpKick": 0
+        },
+        "ItemHandsIdle": "IH_ONEHANDED",
+        "Perks": [
+            "piercing",
+            "subsonic",
+            "suppressor",
+            "marksman",
+            "versatilescopeextended"
+        ],
+        "PrimaryConfiguration": {
+            "RagdollImpactForce": 75,
+            "RagdollImpactUpKick": 0
+        },
+        "SecondaryConfiguration": {
+            "Piercing": true,
+            "RagdollImpactForce": 75,
+            "RagdollImpactUpKick": 0
+        }
+    }
+}

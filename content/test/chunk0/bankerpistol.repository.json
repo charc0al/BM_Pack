@@ -1,0 +1,18 @@
+{
+    "ec9bca2c-a768-4dd0-9174-fd09067310e5": {
+        "ActorConfiguration": {
+            "AllowPrecisionShot": true,
+            "AllowPrecisionTimeSlowdown": true,
+            "Piercing": true
+        },
+        "PrimaryConfiguration": {
+            "AllowPrecisionShot": true,
+            "AllowPrecisionTimeSlowdown": true
+        },
+        "SecondaryConfiguration": {
+            "AllowPrecisionShot": true,
+            "AllowPrecisionTimeSlowdown": true
+        },
+		"Stackable": true
+    }
+}

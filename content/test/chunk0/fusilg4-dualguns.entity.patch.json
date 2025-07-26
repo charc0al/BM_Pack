@@ -1,0 +1,49 @@
+{
+	"tempHash": "00F108740210E191",
+	"tbluHash": "00B4545E0A6F168D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e33a91fe962c42ff",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 9.167290449705031e-15,
+								"z": -0.0
+							},
+							"position": {
+								"x": 0.0,
+								"y": 1.4901160305669237e-8,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe13e4a90e4c1b",
+				{
+					"parent": "dc6d9ba1a12e7812",
+					"name": "DualGuns",
+					"factory": "[modules:/zvariationresourceentity.class].pc_entitytype",
+					"blueprint": "[modules:/zvariationresourceentity.class].pc_entityblueprint",
+					"properties": {
+						"m_VariationResourceID": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/animations/animationdatabases/hm5_weapons.aset?/dualguns.asva].pc_asva",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
