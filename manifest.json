@@ -10,11 +10,11 @@
 	"contentFolders": ["content/bloodmoneypack", "content/Bloody47", "content/MoreBlood", "content/smallobjectives"],
 	"options": [
 		{
-			"name": "44 Magnum",
-			"tooltip": "Check this if you're using the 44 magnum",
+			"name": "Throwables",
+			"tooltip": "Better thrown object properties",
 			"group": "Other",
 			"type": "checkbox",
-			"contentFolders": ["content/Revolver"]
+			"contentFolders": ["content/throwables"]
 		}
 	]
 }
