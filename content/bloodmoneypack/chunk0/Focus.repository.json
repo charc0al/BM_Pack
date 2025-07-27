@@ -3080,47 +3080,47 @@
 		}
 	},
 	"ec9bca2c-a768-4dd0-9174-fd09067310e5": {
-        "ActorConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        },
-        "PrimaryConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        },
-        "SecondaryConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        }
-    },
+		"ActorConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		},
+		"PrimaryConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		},
+		"SecondaryConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		}
+	},
 	"5b497a01-7941-474f-ac36-2b0490b528a4": {
-        "ActorConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        },
-        "PrimaryConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        },
-        "SecondaryConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        }
-    },
+		"ActorConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		},
+		"PrimaryConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		},
+		"SecondaryConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		}
+	},
 	"4c9e7f92-c104-4587-8053-35e08f494110": {
-        "ActorConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        },
-        "PrimaryConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        },
-        "SecondaryConfiguration": {
-            "AllowPrecisionShot": true,
-            "AllowPrecisionTimeSlowdown": true
-        }
-    },
+		"ActorConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		},
+		"PrimaryConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		},
+		"SecondaryConfiguration": {
+			"AllowPrecisionShot": true,
+			"AllowPrecisionTimeSlowdown": true
+		}
+	},
 	"02ed0fa6-06c0-4ac2-8a7e-f06372570eb7": {
 		"AllowPrecisionShot": true,
 		"AllowPrecisionTimeSlowdown": true
