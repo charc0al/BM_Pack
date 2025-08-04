@@ -15,6 +15,13 @@
 			"group": "Other",
 			"type": "checkbox",
 			"contentFolders": ["content/throwables"]
+		},
+		{
+			"name": "Test",
+			"tooltip": "Experimental stuff",
+			"group": "Other",
+			"type": "checkbox",
+			"contentFolders": ["content/test"]
 		}
 	]
 }
