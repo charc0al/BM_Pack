@@ -1,722 +1,722 @@
 {
-    "034ce4ab-b85a-4706-bdef-cba77f9b45f7": {
-        "CommonName": "(Sniper) Jaeger Tiger",
+	"034ce4ab-b85a-4706-bdef-cba77f9b45f7": {
+		"CommonName": "(Sniper) Jaeger Tiger",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "081f8265-63db-4759-96a3-5186caf59f62": {
-        "CommonName": "(Sniper) Jaeger Tuatara",
+	},
+	"081f8265-63db-4759-96a3-5186caf59f62": {
+		"CommonName": "(Sniper) Jaeger Tuatara",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "0e3dc26a-9eed-4aa1-b81e-d0c597b36737": {
-        "CommonName": "(Sniper) ICA Woodsman Covert",
+	},
+	"0e3dc26a-9eed-4aa1-b81e-d0c597b36737": {
+		"CommonName": "(Sniper) ICA Woodsman Covert",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "0f9608e9-6e42-49b9-b4cd-9aaebba8458f": {
-        "CommonName": "(Sniper) ICA Hackl Leviathan Covert",
+	},
+	"0f9608e9-6e42-49b9-b4cd-9aaebba8458f": {
+		"CommonName": "(Sniper) ICA Hackl Leviathan Covert",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "115f8a04-ed8b-492c-91a4-c0b523b79016": {
-        "CommonName": "Hackl TW Longbow",
+	},
+	"115f8a04-ed8b-492c-91a4-c0b523b79016": {
+		"CommonName": "Hackl TW Longbow",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "1264f20b-b901-4d36-bc03-a9115709b531": {
-        "CommonName": "(Sniper) Jaeger Lancer",
+	},
+	"1264f20b-b901-4d36-bc03-a9115709b531": {
+		"CommonName": "(Sniper) Jaeger Lancer",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "26605ee6-6e82-4a57-909f-76b91e7d93ed": {
-        "CommonName": "Druzhina 34 ICA Arctic Exclusive",
+	},
+	"26605ee6-6e82-4a57-909f-76b91e7d93ed": {
+		"CommonName": "Druzhina 34 ICA Arctic Exclusive",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "2bb2fe71-370d-4af9-a941-0ed3ff70f5bb": {
-        "CommonName": "Firearms Hero Sniper Heavy Base",
+	},
+	"2bb2fe71-370d-4af9-a941-0ed3ff70f5bb": {
+		"CommonName": "Firearms Hero Sniper Heavy Base",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "2d0393e2-49a8-43c1-b8f3-110e4b0b0c83": {
-        "CommonName": "Sieger 300 Luxurious",
+	},
+	"2d0393e2-49a8-43c1-b8f3-110e4b0b0c83": {
+		"CommonName": "Sieger 300 Luxurious",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "2f209936-1427-43b6-9812-d6f60b24336f": {
-        "CommonName": "(Sniper) Druzhina 34 ICA Arctic",
+	},
+	"2f209936-1427-43b6-9812-d6f60b24336f": {
+		"CommonName": "(Sniper) Druzhina 34 ICA Arctic",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "370580fc-7fcf-47f8-b994-cebd279f69f9": {
-        "CommonName": "(Sniper) Jaeger",
+	},
+	"370580fc-7fcf-47f8-b994-cebd279f69f9": {
+		"CommonName": "(Sniper) Jaeger",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "3d681794-bd95-4340-9a18-59372a2239a0": {
-        "CommonName": "(Sniper) Jaeger S2",
+	},
+	"3d681794-bd95-4340-9a18-59372a2239a0": {
+		"CommonName": "(Sniper) Jaeger S2",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "3ec2d9e5-de9d-4ddc-969f-6f1565e5a291": {
-        "CommonName": "(Sniper) Druzhina 34 MakeshiftScrap",
+	},
+	"3ec2d9e5-de9d-4ddc-969f-6f1565e5a291": {
+		"CommonName": "(Sniper) Druzhina 34 MakeshiftScrap",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "41ac4076-e197-4576-894b-499534fd37e8": {
-        "CommonName": "Sieger 300 Viper",
+	},
+	"41ac4076-e197-4576-894b-499534fd37e8": {
+		"CommonName": "Sieger 300 Viper",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "43d15bea-d282-4a91-b625-8b7ba85c0ad5": {
-        "CommonName": "Druzhina Kashmirian",
+	},
+	"43d15bea-d282-4a91-b625-8b7ba85c0ad5": {
+		"CommonName": "Druzhina Kashmirian",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "53160e5e-cbfd-41db-9c2b-088f2c71f534": {
-        "CommonName": "(Sniper) Woodsman",
+	},
+	"53160e5e-cbfd-41db-9c2b-088f2c71f534": {
+		"CommonName": "(Sniper) Woodsman",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "54bba84c-6751-430e-b47d-e4b5ddf7a835": {
-        "CommonName": "Sieger 300",
+	},
+	"54bba84c-6751-430e-b47d-e4b5ddf7a835": {
+		"CommonName": "Sieger 300",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "559d8002-9dc5-4da7-ab54-18c8ad20f047": {
-        "CommonName": "(S3) Firearms_sniper_heavy_Dragon",
+	},
+	"559d8002-9dc5-4da7-ab54-18c8ad20f047": {
+		"CommonName": "(S3) Firearms_sniper_heavy_Dragon",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "58cef3b5-9b24-45c1-bf86-60f9958ae013": {
-        "CommonName": "SC Sniper Heavy Knight Ruby Rude B",
+	},
+	"58cef3b5-9b24-45c1-bf86-60f9958ae013": {
+		"CommonName": "SC Sniper Heavy Knight Ruby Rude B",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "5f5e10e1-4c38-4fd0-ac16-8f42526ab232": {
-        "CommonName": "SC Sniper Heavy HM",
+	},
+	"5f5e10e1-4c38-4fd0-ac16-8f42526ab232": {
+		"CommonName": "SC Sniper Heavy HM",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "646ae32f-5978-4fb9-8c9f-93d612c76e23": {
-        "CommonName": "SC Sniper Heavy Stone",
+	},
+	"646ae32f-5978-4fb9-8c9f-93d612c76e23": {
+		"CommonName": "SC Sniper Heavy Stone",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "6e5e27bf-6c27-4785-8cc4-ffebd0ec3494": {
-        "CommonName": "Sieger 300 Medium Sniper ConcreteArt",
+	},
+	"6e5e27bf-6c27-4785-8cc4-ffebd0ec3494": {
+		"CommonName": "Sieger 300 Medium Sniper ConcreteArt",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "719ba201-3688-4984-afb0-81dc2cc95ec1": {
-        "CommonName": "(Sniper) NPC Woodsman",
+	},
+	"719ba201-3688-4984-afb0-81dc2cc95ec1": {
+		"CommonName": "(Sniper) NPC Woodsman",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "7d64d9df-5d30-4e98-9af0-7562ee145d5c": {
-        "CommonName": "Sieger 300 Tactical",
+	},
+	"7d64d9df-5d30-4e98-9af0-7562ee145d5c": {
+		"CommonName": "Sieger 300 Tactical",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "82642e14-c6d7-43b3-8b9c-396823a2859a": {
-        "CommonName": "Firearms Hero Sniper Medium Base (Classic)",
+	},
+	"82642e14-c6d7-43b3-8b9c-396823a2859a": {
+		"CommonName": "Firearms Hero Sniper Medium Base (Classic)",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "87bf38ca-de63-4037-ae32-7817a42c7ced": {
-        "CommonName": "(Sniper) Woodsman",
+	},
+	"87bf38ca-de63-4037-ae32-7817a42c7ced": {
+		"CommonName": "(Sniper) Woodsman",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "8d22cea9-68db-458d-a8ee-9937128f1729": {
-        "CommonName": "Sieger 300 Ghost  White Ninja",
+	},
+	"8d22cea9-68db-458d-a8ee-9937128f1729": {
+		"CommonName": "Sieger 300 Ghost  White Ninja",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "8f4cd8c1-6ee6-4686-8a0e-52a823eec165": {
-        "CommonName": "Firearms Hero Sniper Heavy Base TEST",
+	},
+	"8f4cd8c1-6ee6-4686-8a0e-52a823eec165": {
+		"CommonName": "Firearms Hero Sniper Heavy Base TEST",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "907e0277-7806-42a4-b4b2-338cf8dd9391": {
-        "CommonName": "Sieger 300 Advanced - Ave Maria",
+	},
+	"907e0277-7806-42a4-b4b2-338cf8dd9391": {
+		"CommonName": "Sieger 300 Advanced - Ave Maria",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "93a95f8a-a1bb-4d6c-bfd5-e6eec4eeaa1e": {
-        "CommonName": "Sieger 300 Medium Sniper RudeRuby",
+	},
+	"93a95f8a-a1bb-4d6c-bfd5-e6eec4eeaa1e": {
+		"CommonName": "Sieger 300 Medium Sniper RudeRuby",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "96be452c-a2b5-4827-adb6-ff394d2e9ba0": {
-        "CommonName": "SC Sniper Heavy Knight Ruby Rude A",
+	},
+	"96be452c-a2b5-4827-adb6-ff394d2e9ba0": {
+		"CommonName": "SC Sniper Heavy Knight Ruby Rude A",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "a8471f57-0075-4c57-b67f-916f3e2e4738": {
-        "CommonName": "Firearms SC Hero Sniper Heavy Base",
+	},
+	"a8471f57-0075-4c57-b67f-916f3e2e4738": {
+		"CommonName": "Firearms SC Hero Sniper Heavy Base",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "b0111e5e-f7ba-47c2-b16e-6b9bde14a0ca": {
-        "CommonName": "SC Sniper Heavy Stone Arctic",
+	},
+	"b0111e5e-f7ba-47c2-b16e-6b9bde14a0ca": {
+		"CommonName": "SC Sniper Heavy Stone Arctic",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "c0f72c92-f514-40b7-a35c-2f5709b99fce": {
-        "CommonName": "Firearms Hero Sniper Heavy Scout Base (Scout)",
+	},
+	"c0f72c92-f514-40b7-a35c-2f5709b99fce": {
+		"CommonName": "Firearms Hero Sniper Heavy Scout Base (Scout)",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "c8b2d7ab-c952-4ad3-99fe-4627047318b9": {
-        "CommonName": "(Sniper) Druzhina 34 ICA",
+	},
+	"c8b2d7ab-c952-4ad3-99fe-4627047318b9": {
+		"CommonName": "(Sniper) Druzhina 34 ICA",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "cdf9db81-14a9-4047-9c95-8a3e65cd6a00": {
-        "CommonName": "Sniper Ancestral",
+	},
+	"cdf9db81-14a9-4047-9c95-8a3e65cd6a00": {
+		"CommonName": "Sniper Ancestral",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "d5f8e067-5b44-4ddf-91e2-3c29e9222eae": {
-        "CommonName": "(Sniper) ICA Hackl Leviathan Covert Ducky",
+	},
+	"d5f8e067-5b44-4ddf-91e2-3c29e9222eae": {
+		"CommonName": "(Sniper) ICA Hackl Leviathan Covert Ducky",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "d8da0a25-925b-4e5d-a5c2-6fe5154434c7": {
-        "CommonName": "SC Sniper Heavy Knight Arctic",
+	},
+	"d8da0a25-925b-4e5d-a5c2-6fe5154434c7": {
+		"CommonName": "SC Sniper Heavy Knight Arctic",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "e65989b4-3d38-4739-b79d-f358afb202df": {
-        "CommonName": "Archmesh Sniper Stealth",
+	},
+	"e65989b4-3d38-4739-b79d-f358afb202df": {
+		"CommonName": "Archmesh Sniper Stealth",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "edcd3a40-cab7-41c5-af1b-461625594298": {
-        "CommonName": "SC Sniper Heavy Stone Viper",
+	},
+	"edcd3a40-cab7-41c5-af1b-461625594298": {
+		"CommonName": "SC Sniper Heavy Stone Viper",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "eedb7f84-896d-403b-905b-11b105e7ce35": {
-        "CommonName": "(Sniper) Jaeger Covert",
+	},
+	"eedb7f84-896d-403b-905b-11b105e7ce35": {
+		"CommonName": "(Sniper) Jaeger Covert",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "f301f605-007c-4fe1-aa99-a8cd2cae033f": {
-        "CommonName": "Sieger 300 Ghost _ GOTY Medium Sniper (Dark Sniper)",
+	},
+	"f301f605-007c-4fe1-aa99-a8cd2cae033f": {
+		"CommonName": "Sieger 300 Ghost _ GOTY Medium Sniper (Dark Sniper)",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "f4e92f7a-c13e-4f7f-8406-137dfd3f8378": {
-        "CommonName": "(Sniper) Jaeger Tuatara Envy",
+	},
+	"f4e92f7a-c13e-4f7f-8406-137dfd3f8378": {
+		"CommonName": "(Sniper) Jaeger Tuatara Envy",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "f5d0b800-bf37-41ff-bd19-4c04e3b69754": {
-        "CommonName": "Druzhina",
+	},
+	"f5d0b800-bf37-41ff-bd19-4c04e3b69754": {
+		"CommonName": "Druzhina",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "f5e3a7ca-d0d3-421e-b341-b5ba46bc900f": {
-        "CommonName": "(Sniper) Druzhina 34 DTI",
+	},
+	"f5e3a7ca-d0d3-421e-b341-b5ba46bc900f": {
+		"CommonName": "(Sniper) Druzhina 34 DTI",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "f9d471fc-a3d0-49bd-8e2d-af7fb8cedf6f": {
-        "CommonName": "(S3) Firearms_sniper_heavy_Pride",
+	},
+	"f9d471fc-a3d0-49bd-8e2d-af7fb8cedf6f": {
+		"CommonName": "(S3) Firearms_sniper_heavy_Pride",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "fa63018a-59c8-4468-9bc7-bcfae65c5d7e": {
-        "CommonName": "SC Sniper Heavy Knight",
+	},
+	"fa63018a-59c8-4468-9bc7-bcfae65c5d7e": {
+		"CommonName": "SC Sniper Heavy Knight",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    },
-    "fc74f9d9-6c69-4772-a846-285e2116c6a8": {
-        "CommonName": "(Sniper) Woodsman Covert",
+	},
+	"fc74f9d9-6c69-4772-a846-285e2116c6a8": {
+		"CommonName": "(Sniper) Woodsman Covert",
 		"ActorConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"PrimaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		},
 		"SecondaryConfiguration": {
-		  "PrecisionUnaimedMaxDegree": 1,
-		  "PrecisionUnaimedMinDegree": 0.5
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5
 		}
-    }
+	}
 }
