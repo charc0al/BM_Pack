@@ -1,0 +1,65 @@
+{
+    "226c2548-53e0-4703-873c-366e2c38dc5f": {
+		"CommonName": "(AR) Shashka A33 Covert!",
+        "ActorConfiguration": {
+            "BlindfirePrecisionModifier": 0.3,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 0.7,
+			"PrecisionUnaimedMinDegree": 0.5
+        },
+        "PrimaryConfiguration": {
+            "BlindfirePrecisionModifier": 0.3,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 0.7,
+			"PrecisionUnaimedMinDegree": 0.5
+        },
+        "SecondaryConfiguration": {
+            "BlindfirePrecisionModifier": 0.3,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 0.7,
+			"PrecisionUnaimedMinDegree": 0.5
+        }
+    },
+    "79b48d90-26aa-4b17-9332-599ed8e0bd7f": {
+        "CommonName": "(AR) Shashka A33 Gold!",
+		"ActorConfiguration": {
+            "BlindfirePrecisionModifier": 0.5,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.7
+        },
+        "PrimaryConfiguration": {
+            "BlindfirePrecisionModifier": 0.5,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.7
+        },
+        "SecondaryConfiguration": {
+            "BlindfirePrecisionModifier": 0.5,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.7
+        }
+    },
+	"e638b949-9b96-4c41-bec4-0a8fbfb05c75": {
+        "CommonName": "(SMG) DAK X2 Covert!",
+		"ActorConfiguration": {
+            "BlindfirePrecisionModifier": 0.5,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.7
+        },
+        "PrimaryConfiguration": {
+            "BlindfirePrecisionModifier": 0.5,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.7
+        },
+        "SecondaryConfiguration": {
+            "BlindfirePrecisionModifier": 0.5,
+			"CrosshairDisplayHelpWhenNotAiming": false,
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.7
+        }
+    }
+}

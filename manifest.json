@@ -17,6 +17,20 @@
 			"contentFolders": ["content/throwables"]
 		},
 		{
+			"name": "Focus",
+			"tooltip": "Experimental stuff",
+			"group": "Other",
+			"type": "checkbox",
+			"contentFolders": ["content/focus"]
+		},
+		{
+			"name": "Focus + Blindfire",
+			"tooltip": "Experimental stuff",
+			"group": "Other",
+			"type": "checkbox",
+			"contentFolders": ["content/focus_blindfire"]
+		},
+		{
 			"name": "Test",
 			"tooltip": "Experimental stuff",
 			"group": "Other",
