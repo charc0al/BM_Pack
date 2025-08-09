@@ -1,0 +1,179 @@
+{
+	"tempHash": "0072BC2B790950B2",
+	"tbluHash": "00DDE321E5355684",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c1cfae73a8fc1ff0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fA",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1cfae73a8fc1ff0",
+				{ "RemoveAllEventConnectionsForTrigger": ["Out", "In"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2fee8005775fa29",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fHighClampReplace",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2fee8005775fa29",
+				{
+					"AddProperty": [
+						"m_bUseLowLimit",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2fee8005775fa29",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLowClampLimit",
+						"value": 0.2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca60510e9aea5e76",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fB",
+						"value": 0.00899999977648258
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8d6f8a90182db20",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fBlendInDuration",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a8d6f8a90182db20",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fBlendOutDuration",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0f11f68b01ea8285",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bNoiseEnabled",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b257727b91f3af40",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"LooseTargetEncounterCutStarted",
+						"BlendOut"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b257727b91f3af40",
+				{
+					"AddEventConnection": [
+						"CurrentHealth",
+						"SetValue",
+						"cafea9055495452f"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea9055495452f",
+				{
+					"parent": "6b5f4ee1a701d61a",
+					"name": "Health Float Value",
+					"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bSetValueAlwaysTriggerChangedEvent": {
+							"type": "bool",
+							"value": true
+						},
+						"m_fValue": { "type": "float32", "value": 123 }
+					},
+					"events": { "OnValue": { "A": ["cafec68d4b0de939"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec68d4b0de939",
+				{
+					"parent": "6b5f4ee1a701d61a",
+					"name": "MultiplyDivide Rework",
+					"factory": "[modules:/zmathmultiplydivide.class].pc_entitytype",
+					"blueprint": "[modules:/zmathmultiplydivide.class].pc_entityblueprint",
+					"properties": {
+						"m_fB": { "type": "float32", "value": 100.0 },
+						"m_bDivide": { "type": "bool", "value": true },
+						"m_bGenerateOnStart": {
+							"type": "bool",
+							"value": true
+						}
+					},
+					"events": { "Out": { "B": ["cafeaef37f513b58"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeaef37f513b58",
+				{
+					"parent": "6b5f4ee1a701d61a",
+					"name": "AddSubstract Rework",
+					"factory": "[modules:/zmathaddsubstract.class].pc_entitytype",
+					"blueprint": "[modules:/zmathaddsubstract.class].pc_entityblueprint",
+					"properties": {
+						"m_fA": { "type": "float32", "value": 1 },
+						"m_bSubstract": { "type": "bool", "value": true }
+					},
+					"events": { "Out": { "In": ["c2fee8005775fa29"] } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -7,27 +7,29 @@
 	"description": "A collection of Blood Money themed mods",
 	"authors": ["Charc0al"],
 	"frameworkVersion": "2.33.26",
-	"contentFolders": ["content/bloodmoneypack", "content/Bloody47", "content/MoreBlood", "content/smallobjectives"],
+	"contentFolders": ["content/bloodmoneypack", "content/Bloody47", "content/MoreBlood", "content/smallobjectives", "content/red"],
 	"options": [
 		{
-			"name": "Throwables",
+			"name": "Throwables - knockdown",
 			"tooltip": "Better thrown object properties",
 			"group": "Other",
 			"type": "checkbox",
 			"contentFolders": ["content/throwables"]
 		},
 		{
-			"name": "Focus",
-			"tooltip": "Experimental stuff",
+			"name": "Seeing Red",
+			"tooltip": "Blood Money style red low health filter",
 			"group": "Other",
 			"type": "checkbox",
-			"contentFolders": ["content/focus"]
+			"enabledByDefault": true,
+			"contentFolders": ["content/red"]
 		},
 		{
 			"name": "Focus + Blindfire",
-			"tooltip": "Experimental stuff",
+			"tooltip": "All weapons have focus + precise blind fire",
 			"group": "Other",
 			"type": "checkbox",
+			"enabledByDefault": true,
 			"contentFolders": ["content/focus_blindfire"]
 		},
 		{
