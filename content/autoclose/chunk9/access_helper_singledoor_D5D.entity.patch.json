@@ -1,0 +1,18 @@
+{
+	"tempHash": "0050DA9544AD7D5D",
+	"tbluHash": "003BF667B1E8A057",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"efe1e8027df71005",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bAutoClose",
+						"value": false
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

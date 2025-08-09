@@ -16,6 +16,13 @@
 	],
 	"options": [
 		{
+			"name": "Doors - No Auto-close",
+			"tooltip": "Doors don't close automatically",
+			"group": "Other",
+			"type": "checkbox",
+			"contentFolders": ["content/autoclose"]
+		},
+		{
 			"name": "Throwables - knockdown",
 			"tooltip": "Better thrown object properties",
 			"group": "Other",
