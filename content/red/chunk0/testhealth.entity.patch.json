@@ -14,10 +14,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"c1cfae73a8fc1ff0",
-				{ "RemoveAllEventConnectionsForTrigger": ["Out", "In"] }
-			]
+			"SubEntityOperation": ["c1cfae73a8fc1ff0", { "RemoveAllEventConnectionsForTrigger": ["Out", "In"] }]
 		},
 		{
 			"SubEntityOperation": [
@@ -34,10 +31,7 @@
 			"SubEntityOperation": [
 				"c2fee8005775fa29",
 				{
-					"AddProperty": [
-						"m_bUseLowLimit",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bUseLowLimit", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -100,10 +94,7 @@
 			"SubEntityOperation": [
 				"b257727b91f3af40",
 				{
-					"RemoveAllEventConnectionsForTrigger": [
-						"LooseTargetEncounterCutStarted",
-						"BlendOut"
-					]
+					"RemoveAllEventConnectionsForTrigger": ["LooseTargetEncounterCutStarted", "BlendOut"]
 				}
 			]
 		},
@@ -111,11 +102,7 @@
 			"SubEntityOperation": [
 				"b257727b91f3af40",
 				{
-					"AddEventConnection": [
-						"CurrentHealth",
-						"SetValue",
-						"cafea9055495452f"
-					]
+					"AddEventConnection": ["CurrentHealth", "SetValue", "cafea9055495452f"]
 				}
 			]
 		},
