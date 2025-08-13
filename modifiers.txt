@@ -1,0 +1,11 @@
+960c707e-ffa9-44d4-82c9-bf36d584a0d8 - +50 rounds
+a8c57e57-646b-4f1d-84a6-0fa4bbcb9944 - +10 rounds +4 mags
+626686f9-a60a-4795-b826-2f66186e5f9d - piercing
+
+
+MagazineConfigs - 
+357e6077-6ed0-4f5a-955a-bdf1331c3ecf - body piercing
+
+"Tags": [
+	"bodypiercingmag"
+]
