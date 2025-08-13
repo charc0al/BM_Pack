@@ -1,0 +1,47 @@
+{
+    "2f6eec38-45ea-49df-83a2-0b98a858e60a": {
+		"CommonName": "(AR) RS-15",
+        "ActorConfiguration": {
+            "BulletsPerMagazine": 45,
+            "InitialMagazines": 4
+        },
+        "PrimaryConfiguration": {
+            "BulletsPerMagazine": 45,
+            "InitialMagazines": 4
+        },
+        "SecondaryConfiguration": {
+            "BulletsPerMagazine": 45,
+            "InitialMagazines": 4
+        }
+    },
+    "d8aa6eba-0cb7-4ed4-ab99-975f2793d731": {
+        "CommonName": "(AR) (NPC) Fusil G2",
+		"ActorConfiguration": {
+            "BulletsPerMagazine": 40,
+            "InitialMagazines": 4
+        },
+        "PrimaryConfiguration": {
+            "BulletsPerMagazine": 40,
+            "InitialMagazines": 4
+        },
+        "SecondaryConfiguration": {
+            "BulletsPerMagazine": 40,
+            "InitialMagazines": 4
+        }
+    },
+	"f2465b79-a901-42f9-93f5-22f114530849": {
+        "CommonName": "(IG) AR_Hero_ConcreteArt",
+		"ActorConfiguration": {
+            "BulletsPerMagazine": 60,
+            "InitialMagazines": 6
+        },
+        "PrimaryConfiguration": {
+            "BulletsPerMagazine": 60,
+            "InitialMagazines": 6
+        },
+        "SecondaryConfiguration": {
+            "BulletsPerMagazine": 60,
+            "InitialMagazines": 6
+        }
+    }
+}

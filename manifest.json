@@ -16,11 +16,12 @@
 	],
 	"options": [
 		{
-			"name": "Doors - No Auto-close",
-			"tooltip": "Doors don't close automatically",
+			"name": "Gun Mods",
+			"tooltip": "Buffs mag sizes and a few other properties of some guns. Nothing crazy.",
 			"group": "Other",
 			"type": "checkbox",
-			"contentFolders": ["content/autoclose"]
+			"enabledByDefault": true,
+			"contentFolders": ["content/gunmods"]
 		},
 		{
 			"name": "Throwables - knockdown",
