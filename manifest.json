@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.7.2",
+	"version": "1.8.0",
 	"updateCheck": "https://github.com/charc0al/BM_Pack/releases/latest/download/updates.json",
 	"id": "Charc0al.BloodMoneyPack",
 	"name": "Blood Money Pack",
@@ -61,35 +61,35 @@
 			"localisationOverrides": {
 				"00D7C2D00F538B72": {
 					"english": {
-						"1694445649": "Conor McGregor",
 						"487572695": "Good morning 47. <br><br>Your target is the multi-billionaire MMA fighter, known simply as \"The Disruptor\". Tonight, he will be attending a duel at the Ark Society's headquarters on the Isle of Sgàil. His opponent is Tim Quinn, CEO of Quantum Leap and organizer of the event. <br><br>Mr. Quinn has lately become obsessed with the world of MMA, seeing himself as one of the best, though his talent is… questionable. It's a battle to the death, and the odds are certainly against him. <br><br>Some stakeholders have seen this as an opportunity to engage in a hostile takeover of Quantum Leap. And they will do everything they can to have The Disruptor win. However, our clients, still loyal to Quinn, have hired us to protect their asset and make sure this doesn't happen. <br><br>So do everything in your power to keep Quinn safe and stop Conor McGregor \"winning the fight\" at all cost. <br><br>Good luck 47.",
-						"1730062487": "Conor McGregor",
+						"1249185365": "Combat Sports fighter and multi-billionaire, Conor McGregor's background is shrouded in mystery. It seemed like he came out of nowhere and quickly dominated the scene. <br><br>He originally burst on to the MMA scene in the mid 2010’s, where with his charisma, brutality and skill, he quickly made a name for himself and won the hearts of the audience. He was unapologetic and funny… and the media fell in love with him. <br><br>During an interview, he was asked if there was anything left on his bucket list. His reply: \"Knock out Tim Quinn, because he is a rat and wannabe fighter – an insult to our profession\" – a comment about the CEO of Quantum Leap, who had recently become obsessed with the world of combat sports and a laughing stock within the combat sports community. It was a threat no one took too seriously... And little did he know that this simple taunt could one day become a potential reality.",
 						"1608843279": "\"Conor McGregor\" Has Escaped",
-						"1249185365": "Combat Sports fighter and multi-billionaire, Conor McGregor's background is shrouded in mystery. It seemed like he came out of nowhere and quickly dominated the scene. <br><br>He originally burst on to the MMA scene in the mid 2010’s, where with his charisma, brutality and skill, he quickly made a name for himself and won the hearts of the audience. He was unapologetic and funny… and the media fell in love with him. <br><br>During an interview, he was asked if there was anything left on his bucket list. His reply: \"Knock out Tim Quinn, because he is a rat and wannabe fighter – an insult to our profession\" – a comment about the CEO of Quantum Leap, who had recently become obsessed with the world of combat sports and a laughing stock within the combat sports community. It was a threat no one took too seriously... And little did he know that this simple taunt could one day become a potential reality."
+						"1694445649": "Conor McGregor",
+						"1730062487": "Conor McGregor"
 					}
 				},
 				"0082330FE9D8487E": {
 					"english": {
 						"1413155516": "<li>Play Conor McGregor.</li>",
-						"2812006658": "<li>Assassinate Conor McGregor.</li><li>Eliminate only the target.</li><li>No bodies found.</li><li>Do not get compromised.</li><li>If you are detected by cameras, erase or destroy the evidence.</li>",
 						"2264948757": "Conor McGregor",
+						"2812006658": "<li>Assassinate Conor McGregor.</li><li>Eliminate only the target.</li><li>No bodies found.</li><li>Do not get compromised.</li><li>If you are detected by cameras, erase or destroy the evidence.</li>",
 						"3533091399": "<li>Assassinate Conor McGregor.</li>"
 					}
 				},
 				"00083A3CCE0896AD": {
 					"english": {
-						"2193825505": "Conor McGregor",
-						"1115518360": "Two level Arcade contract containing the Conor McGregor Elusive Target.",
-						"442363610": "Conor McGregor - Level 2",
-						"2630458484": "Conor McGregor - Level 1",
 						"347006097": "Conor McGregor",
-						"1094203075": "<li>Eliminate Conor McGregor who is part of The Ostentatious.</li>"
+						"442363610": "Conor McGregor - Level 2",
+						"1094203075": "<li>Eliminate Conor McGregor who is part of The Ostentatious.</li>",
+						"1115518360": "Two level Arcade contract containing the Conor McGregor Elusive Target.",
+						"2193825505": "Conor McGregor",
+						"2630458484": "Conor McGregor - Level 1"
 					}
 				},
 				"001F0F3B7F11E788": {
 					"english": {
-						"3581909364": "COVID Vaccine",
-						"2162772774": "A syringe containing a single dose of a COVID vaccine. Safe and effective, approved by the FDA."
+						"2162772774": "A syringe containing a single dose of a COVID vaccine. Safe and effective, approved by the FDA.",
+						"3581909364": "COVID Vaccine"
 					}
 				}
 			}
