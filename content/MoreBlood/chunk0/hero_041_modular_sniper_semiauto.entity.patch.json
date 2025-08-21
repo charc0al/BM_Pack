@@ -5,7 +5,7 @@
 		{
 			"SubEntityOperation": [
 				"c837a840a1144edf",
-				{ "SetPropertyValue": { "property_name": "m_fBlodSplatSizeMultiplier", "value": 3.5 } }
+				{ "SetPropertyValue": { "property_name": "m_fBlodSplatSizeMultiplier", "value": 4.0 } }
 			]
 		}
 	],
