@@ -1,50 +1,165 @@
 {
 	"2f6eec38-45ea-49df-83a2-0b98a858e60a": {
 		"CommonName": "(AR) RS-15",
-		"ActorConfiguration": {
-			"BulletsPerMagazine": 45,
-			"InitialMagazines": 4
-		},
-		"PrimaryConfiguration": {
-			"BulletsPerMagazine": 45,
-			"InitialMagazines": 4
-		},
-		"SecondaryConfiguration": {
-			"BulletsPerMagazine": 45,
-			"InitialMagazines": 4
-		},
 		"AppliedModifiers": ["a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"]
 	},
 	"d8aa6eba-0cb7-4ed4-ab99-975f2793d731": {
 		"CommonName": "(AR) (NPC) Fusil G2",
-		"ActorConfiguration": {
-			"BulletsPerMagazine": 40,
-			"InitialMagazines": 4
-		},
-		"PrimaryConfiguration": {
-			"BulletsPerMagazine": 40,
-			"InitialMagazines": 4
-		},
-		"SecondaryConfiguration": {
-			"BulletsPerMagazine": 40,
-			"InitialMagazines": 4
-		},
 		"AppliedModifiers": ["a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"]
 	},
 	"f2465b79-a901-42f9-93f5-22f114530849": {
 		"CommonName": "(IG) AR_Hero_ConcreteArt",
-		"ActorConfiguration": {
-			"BulletsPerMagazine": 60,
-			"InitialMagazines": 6
-		},
-		"PrimaryConfiguration": {
-			"BulletsPerMagazine": 60,
-			"InitialMagazines": 6
-		},
-		"SecondaryConfiguration": {
-			"BulletsPerMagazine": 60,
-			"InitialMagazines": 6
-		},
 		"AppliedModifiers": ["960c707e-ffa9-44d4-82c9-bf36d584a0d8", "626686f9-a60a-4795-b826-2f66186e5f9d"]
-	}
+	},
+	"092f6514-c34e-4d04-8d28-7ebbe14230d1": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+            "4421b168-79ae-4970-a057-2e614006527d"
+        ],
+        "CommonName": "(pistol) Rude Ruby"
+    },
+    "0f991e64-354a-403a-afa5-b30285889377": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "(Pistol) Tactical ConcreteArt"
+    },
+    "10f0653c-fe9c-4a43-98f1-18d20d18d9ab": {
+        "AppliedModifiers": [
+            "574309b9-25ca-4d78-a99d-2cdbff64c524",
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "(SMG) DAK SMG GOLD COVERT"
+    },
+    "23e1031b-879d-4b04-ada9-b684d9d16c22": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "(Shotgun) Enram HV Covert Luxurious"
+    },
+    "2d0393e2-49a8-43c1-b8f3-110e4b0b0c83": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "Sieger 300 Luxurious"
+    },
+    "30ebff97-f1e8-4fb1-9414-3e0911c29149": {
+        "AppliedModifiers": [
+            "626686f9-a60a-4795-b826-2f66186e5f9d",
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+            "43a7f947-b3b6-4dee-8034-c0468db7637d"
+        ],
+        "CommonName": "(SMG) DAK X2 Covert"
+    },
+    "3ec2d9e5-de9d-4ddc-969f-6f1565e5a291": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "(Sniper) Druzhina 34 MakeshiftScrap"
+    },
+    "407df651-52d4-4871-a903-db677a7568ed": {
+        "AppliedModifiers": [
+            "960c707e-ffa9-44d4-82c9-bf36d584a0d8",
+            "0707eea9-c23d-4e6d-b512-9fb0eecbc303",
+            "5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+        ],
+        "CommonName": "(IG) Shotgun Hero ConcreteArt Bartoli 12G Tactical"
+    },
+    "4ad2be0d-e24f-47a2-bcc9-4c6d5f73d4ff": {
+        "AppliedModifiers": [
+            "960c707e-ffa9-44d4-82c9-bf36d584a0d8",
+            "0707eea9-c23d-4e6d-b512-9fb0eecbc303"
+        ],
+        "CommonName": "(SMG) DAK SMG GOLD COVERT LUXURIOUS"
+    },
+    "53a4f9bd-5aa8-4b0e-9200-4593c6966f24": {
+        "AppliedModifiers": [
+            "960c707e-ffa9-44d4-82c9-bf36d584a0d8",
+            "0707eea9-c23d-4e6d-b512-9fb0eecbc303",
+            "4421b168-79ae-4970-a057-2e614006527d"
+        ],
+        "CommonName": "(SMG) HX-10 Lambic"
+    },
+    "613b24eb-fdc1-47a3-9157-e3d0c5464baf": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+            "5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+        ]
+    },
+    "6696a10d-9138-4184-8104-a6c7ec2e0eb1": {
+        "AppliedModifiers": [
+            "5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+        ],
+        "CommonName": "Reward Hunting Shotgun Deluxe"
+    },
+    "66f9cf6f-ff2b-4870-9516-59f0f0ef9b0b": {
+        "AppliedModifiers": [
+            "574309b9-25ca-4d78-a99d-2cdbff64c524",
+            "960c707e-ffa9-44d4-82c9-bf36d584a0d8"
+        ],
+        "CommonName": "(S3) SMG_RAPTOR_ICA_Covert_Rude_Ruby"
+    },
+    "6e5e27bf-6c27-4785-8cc4-ffebd0ec3494": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "Sieger 300 Medium Sniper ConcreteArt"
+    },
+    "79b48d90-26aa-4b17-9332-599ed8e0bd7f": {
+        "AppliedModifiers": [
+            "960c707e-ffa9-44d4-82c9-bf36d584a0d8"
+        ],
+        "CommonName": "(AR) Shashka A33 Gold"
+    },
+    "8598ae82-53ac-43ba-9f43-30140d6ba7ee": {
+        "AppliedModifiers": [
+            "0707eea9-c23d-4e6d-b512-9fb0eecbc303"
+        ],
+        "CommonName": "(Shotgun) Sawed Off Bartoli 12G Gold"
+    },
+    "935fd34c-e58c-45d3-bc66-3144752b001b": {
+        "AppliedModifiers": [
+            "5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+        ],
+        "CommonName": "Ancestral Shotgun"
+    },
+    "93a95f8a-a1bb-4d6c-bfd5-e6eec4eeaa1e": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "Sieger 300 Medium Sniper RudeRuby"
+    },
+    "a5d19e9f-8ca3-4c51-9d79-15d3ea2e7771": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+            "5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+        ],
+        "CommonName": "(SMG) HX-10 ConcreteArt"
+    },
+    "c54ca8c7-8c29-4909-8390-3587e9747361": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+        ],
+        "CommonName": "(Pistol) Tactical MakeshiftScrap"
+    },
+    "ef4c35c7-b7d4-4886-81b5-fda089f91173": {
+        "AppliedModifiers": [
+            "5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+        ],
+        "CommonName": "ICA Tactical Shotgun"
+    },
+    "f417bfec-a999-4b2f-adef-510323c75ccf": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+            "574309b9-25ca-4d78-a99d-2cdbff64c524"
+        ],
+        "CommonName": "(Pistol)(NPC) Bartoli 75R Luxurious"
+    },
+    "fca954f6-40b1-448d-b4a8-0c543e521cc3": {
+        "AppliedModifiers": [
+            "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+            "626686f9-a60a-4795-b826-2f66186e5f9d"
+        ],
+        "CommonName": "(Pre-order) ICA 19 Life Baller"
+    }
 }

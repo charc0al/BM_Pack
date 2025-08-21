@@ -1,10 +1,17 @@
 960c707e-ffa9-44d4-82c9-bf36d584a0d8 - +50 rounds
 a8c57e57-646b-4f1d-84a6-0fa4bbcb9944 - +10 rounds +4 mags
+0707eea9-c23d-4e6d-b512-9fb0eecbc303 - +4 initial mags
+a5ade0d6-c19d-4f08-a476-9b47ec3bca93 - +2 initial mags
 626686f9-a60a-4795-b826-2f66186e5f9d - piercing
-
+43a7f947-b3b6-4dee-8034-c0468db7637d - damage x 1.7
+4421b168-79ae-4970-a057-2e614006527d - damage x3
+574309b9-25ca-4d78-a99d-2cdbff64c524 - damage x4
+5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc - damage x2
+070c99bb-b30c-47d6-be10-b235f0f1c44a - half scope bobbing
 
 MagazineConfigs - 
 357e6077-6ed0-4f5a-955a-bdf1331c3ecf - body piercing
+08505946-c3d4-4013-a02e-2613ce26e4ef - wall penetrating
 
 "Tags": [
 	"bodypiercingmag"
