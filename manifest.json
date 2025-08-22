@@ -92,6 +92,11 @@
 						"3581909364": "COVID Vaccine"
 					}
 				}
+			},
+			"localisation": {
+				"english": {
+					"UI_FIREARMS_HERO_SHOTGUN_EXOTIC01_NAME": "The Cleaner"
+				}
 			}
 		},
 		{

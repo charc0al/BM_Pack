@@ -1,8 +1,0 @@
-{
-	"6b93848c-8f1d-42eb-816f-bab61b56d8a5": {
-		"GripAnimType": "IGT_Firearm_Pistol",
-		"ItemHandsIdle": "IH_ONEHANDED",
-		"ItemHandsUse": "IH_ONEHANDED",
-		"ItemSize": "ITEMSIZE_SMALL"
-	}
-}
