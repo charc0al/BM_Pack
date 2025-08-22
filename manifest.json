@@ -95,7 +95,10 @@
 			},
 			"localisation": {
 				"english": {
-					"UI_FIREARMS_HERO_SHOTGUN_EXOTIC01_NAME": "The Cleaner"
+					"UI_FIREARMS_HERO_SHOTGUN_EXOTIC01_NAME": "The Room Clearer",
+					"FIREARMS_HERO_WALLBANGER_NAME": "The Wallbanger",
+					"FIREARMS_HERO_PISTOL_ICA19_BLACKLILLY3_NAME": "1911 Charcoal",
+					"FIREARMS_HERO_SMG_TMP_NAME": "TMP Covert"
 				}
 			}
 		},
