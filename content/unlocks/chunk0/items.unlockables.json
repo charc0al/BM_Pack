@@ -562,7 +562,7 @@
 		},
 		"Rarity": "common"
 	},
-		"MELEE_BASEBALL": {
+	"MELEE_BASEBALL": {
 		"Id": "MELEE_BASEBALL",
 		"Guid": "9dd7b117-7b35-4879-9820-017857dbb3a0",
 		"Type": "weapon",
@@ -641,10 +641,7 @@
 			"Gameplay": {},
 			"Quality": 4,
 			"Rarity": "common",
-			"GameAssets": [
-				"PROP_MELEE_SHURIKEN_BAT_X",
-				"PROP_MELEE_SHURIKEN_BAT_X"
-			],
+			"GameAssets": ["PROP_MELEE_SHURIKEN_BAT_X", "PROP_MELEE_SHURIKEN_BAT_X"],
 			"LoadoutSlot": "gear",
 			"RepositoryId": "33c16292-7f60-4f0b-8ea0-bae80bc31d1a",
 			"RepositoryAssets": [
