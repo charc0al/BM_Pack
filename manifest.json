@@ -55,13 +55,6 @@
 			"contentFolders": ["content/unlocks"]
 		},
 		{
-			"name": "Test",
-			"tooltip": "Experimental stuff",
-			"group": "Other",
-			"type": "checkbox",
-			"contentFolders": ["content/test"]
-		},
-		{
 			"name": "Custom Localization",
 			"tooltip": "Minimalist HUD settings and a few other renames",
 			"group": "Other",
@@ -119,7 +112,8 @@
 					"FIREARMS_HERO_SMG_TMP_NAME": "FMG-9 Covert",
 					"FIREARMS_HERO_PISTOL_CONCEPT5_DTI_NAME": "OCP Auto-9 DTI",
 					"FIREARMS_HERO_RIFLE_AK_BLACK_NAME": "AK-47 Black",
-					"UI_FIREARMS_AR_NEEDLEFACE": "CTAR Needle"
+					"UI_FIREARMS_AR_NEEDLEFACE": "CTAR Needle",
+					"UI_PROP_MELEE_SHURIKEN_BAT_NL_NAME": "Batarang (KO)"
 				}
 			}
 		},
