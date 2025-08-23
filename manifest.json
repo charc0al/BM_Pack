@@ -47,6 +47,14 @@
 			"contentFolders": ["content/focus_blindfire"]
 		},
 		{
+			"name": "Unlockables",
+			"tooltip": "Add bonus unlockables to the planning screen. Propane flask, frying pan, sniper case, among others.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/unlocks"]
+		},
+		{
 			"name": "Test",
 			"tooltip": "Experimental stuff",
 			"group": "Other",
