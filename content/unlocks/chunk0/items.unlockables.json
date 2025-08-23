@@ -9,6 +9,7 @@
 				"CONTAINER_MILITARY",
 				"ITEM_WEED_JOINT",
 				"ITEM_PROPANE_FLASK",
+				"FIREARMS_CONCEPT5_DTI",
 				"FIREARMS_WALL_PIERCER",
 				"FIREARMS_HWK21_ASSASSIN",
 				"FIREARMS_HWK21_DTI",
@@ -187,6 +188,28 @@
 			"IsContainer": false,
 			"Rarity": "common",
 			"RepositoryId": "396383c3-c42e-4fcf-b505-9d970518dc04"
+		},
+		"Rarity": "common"
+	},
+	"FIREARMS_CONCEPT5_DTI": {
+		"Id": "FIREARMS_CONCEPT5_DTI",
+		"Guid": "883c2da0-acde-432e-9588-fc7bd0c80642",
+		"Type": "weapon",
+		"Subtype": "pistol",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 3,
+			"LoadoutSlot": "concealedweapon",
+			"IsContainer": false,
+			"Rarity": "common",
+			"RepositoryId": "29f10687-7ff4-4d30-a12a-53054afb3558"
 		},
 		"Rarity": "common"
 	},

@@ -96,8 +96,18 @@
 				},
 				"001F0F3B7F11E788": {
 					"english": {
-						"2162772774": "A syringe containing a single dose of a COVID vaccine. Safe and effective, approved by the FDA.",
-						"3581909364": "COVID Vaccine"
+						"3581909364": "Lethal Syringe II"
+					}
+				},
+				"008322D98E1CFE04": {
+					"english": {
+						"505629393": "COVID Vaccine",
+						"1270192259": "A syringe containing a single dose of a COVID vaccine. Safe and effective, approved by the FDA."
+					}
+				},
+				"0024A5A15AC9CC2F": {
+					"english": {
+						"2303723277": "3 Ball"
 					}
 				}
 			},
@@ -106,7 +116,10 @@
 					"UI_FIREARMS_HERO_SHOTGUN_EXOTIC01_NAME": "The Room Clearer",
 					"FIREARMS_HERO_WALLBANGER_NAME": "The Wallbanger",
 					"FIREARMS_HERO_PISTOL_ICA19_BLACKLILLY3_NAME": "1911 Charcoal",
-					"FIREARMS_HERO_SMG_TMP_NAME": "TMP Covert"
+					"FIREARMS_HERO_SMG_TMP_NAME": "FMG-9 Covert",
+					"FIREARMS_HERO_PISTOL_CONCEPT5_DTI_NAME": "OCP Auto-9 DTI",
+					"FIREARMS_HERO_RIFLE_AK_BLACK_NAME": "AK-47 Black",
+					"UI_FIREARMS_AR_NEEDLEFACE": "CTAR Needle"
 				}
 			}
 		},
