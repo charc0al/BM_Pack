@@ -47,6 +47,14 @@
 			"contentFolders": ["content/focus_blindfire"]
 		},
 		{
+			"name": "Crowd Improvements",
+			"tooltip": "Crowd friendly fire and marrakesh shadows.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/crowd"]
+		},
+		{
 			"name": "Unlockables",
 			"tooltip": "Add bonus unlockables to the planning screen. Propane flask, frying pan, sniper case, among others.",
 			"group": "Other",

@@ -15,9 +15,19 @@
 		"Name_LOC": "firearms_hero_pistol_concept5_dti_name"
 	},
 	"09efc132-d35a-4e4e-b58e-ba802cc91dce": {
-		"Name_LOC": "firearms_hero_rifle_ak_black_name"
+		"Name_LOC": "firearms_hero_rifle_ak_black_name",
+		"AppliedModifiers": [
+			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
+			"5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
+		]
 	},
 	"ce475c6a-439d-49b7-ad54-325a2faae5a5": {
 		"Name_LOC": "ui_firearms_ar_needleface"
+	},
+	"eb9495e1-7d68-44ef-9025-a26770158b63": {
+		"AppliedModifiers": [
+			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
+		]
 	}
 }
