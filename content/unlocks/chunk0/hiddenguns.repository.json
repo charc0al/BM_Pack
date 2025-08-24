@@ -4,8 +4,37 @@
 		"Name_LOC": "firearms_hero_smg_tmp_name"
 	},
 	"b0f87b4e-a41c-4771-8c74-f56574129679": {
-		"CommonName": "(Pistol) ICA 19 Black Lilly S3",
-		"Name_LOC": "firearms_hero_pistol_ica19_blacklilly3_name"
+		"CommonName": "(Pistol) 1911 Charc0al Baller",
+		"Name_LOC": "firearms_hero_pistol_ica19_blacklilly3_name",
+		"ModelBodyPartSelections": [
+			0,
+			0,
+			1,
+			2,
+			1,
+			1,
+			1,
+			0,
+			4,
+			1
+		],
+		"ModelMuzzleExtensionSelection": 7,
+		"ModelMuzzleExtensionSkinSelection": 0,
+		"ModelScopeSelection": 0,
+		"ModelScopeSkinSelection": 0,
+		"ModelSkinSelections": [
+			0,
+			3,
+			4,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		]
 	},
 	"c44d3dc4-5e2f-403d-9f69-40111f3643db": {
 		"CommonName": "(Pistol) The Wall Piecer",
@@ -20,7 +49,11 @@
 			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
 			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
 			"5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
-		]
+		],
+		"ModelMuzzleExtensionSelection": 7,
+		"ModelMuzzleExtensionSkinSelection": 0,
+		"ModelScopeSelection": 1,
+		"ModelScopeSkinSelection": 0
 	},
 	"ce475c6a-439d-49b7-ad54-325a2faae5a5": {
 		"Name_LOC": "ui_firearms_ar_needleface"
