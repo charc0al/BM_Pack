@@ -1,5 +1,6 @@
 960c707e-ffa9-44d4-82c9-bf36d584a0d8 - +50 rounds
 a8c57e57-646b-4f1d-84a6-0fa4bbcb9944 - +10 rounds +4 mags
+0ade8d9c-70d9-482d-914b-38afd93b9f63 - +2 rounds
 0707eea9-c23d-4e6d-b512-9fb0eecbc303 - +4 initial mags
 a5ade0d6-c19d-4f08-a476-9b47ec3bca93 - +2 initial mags
 626686f9-a60a-4795-b826-2f66186e5f9d - piercing

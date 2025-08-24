@@ -5,7 +5,11 @@
 	},
 	"b0f87b4e-a41c-4771-8c74-f56574129679": {
 		"CommonName": "(Pistol) 1911 Charc0al Baller",
-		"Name_LOC": "firearms_hero_pistol_ica19_blacklilly3_name",
+		"AppliedModifiers": [
+			"0ade8d9c-70d9-482d-914b-38afd93b9f63",
+			"0ade8d9c-70d9-482d-914b-38afd93b9f63",
+			"0ade8d9c-70d9-482d-914b-38afd93b9f63"
+		],
 		"ModelBodyPartSelections": [
 			0,
 			0,
@@ -24,7 +28,7 @@
 		"ModelScopeSkinSelection": 0,
 		"ModelSkinSelections": [
 			0,
-			5,
+			6,
 			4,
 			0,
 			0,
@@ -34,7 +38,8 @@
 			0,
 			0,
 			0
-		]
+		],
+		"Name_LOC": "firearms_hero_pistol_ica19_blacklilly3_name"
 	},
 	"c44d3dc4-5e2f-403d-9f69-40111f3643db": {
 		"CommonName": "(Pistol) The Wall Piecer",
