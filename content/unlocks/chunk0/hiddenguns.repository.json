@@ -18,18 +18,18 @@
 			1,
 			1,
 			1,
-			0,
+			1,
 			4,
 			1
 		],
 		"ModelMuzzleExtensionSelection": 7,
 		"ModelMuzzleExtensionSkinSelection": 0,
-		"ModelScopeSelection": 0,
+		"ModelScopeSelection": 2,
 		"ModelScopeSkinSelection": 0,
 		"ModelSkinSelections": [
 			0,
 			6,
-			4,
+			5,
 			0,
 			0,
 			0,
@@ -57,7 +57,7 @@
 		],
 		"ModelMuzzleExtensionSelection": 1,
 		"ModelMuzzleExtensionSkinSelection": 0,
-		"ModelScopeSelection": 2,
+		"ModelScopeSelection": 1,
 		"ModelScopeSkinSelection": 0
 	},
 	"ce475c6a-439d-49b7-ad54-325a2faae5a5": {
