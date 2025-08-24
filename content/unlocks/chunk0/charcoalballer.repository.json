@@ -9,13 +9,13 @@
 			1,
 			2,
 			1,
-			2,
+			0,
 			4,
 			1
 		],
 		"ModelMuzzleExtensionSelection": 7,
 		"ModelMuzzleExtensionSkinSelection": 0,
-		"ModelScopeSelection": 2,
+		"ModelScopeSelection": 3,
 		"ModelScopeSkinSelection": 0,
 		"ModelSkinSelections": [
 			0,
