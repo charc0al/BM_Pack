@@ -24,7 +24,7 @@
 		"ModelScopeSkinSelection": 0,
 		"ModelSkinSelections": [
 			0,
-			3,
+			5,
 			4,
 			0,
 			0,
@@ -50,9 +50,9 @@
 			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944",
 			"5cea1172-fcd1-4e2f-bbf3-da6fd32d0ddc"
 		],
-		"ModelMuzzleExtensionSelection": 7,
+		"ModelMuzzleExtensionSelection": 1,
 		"ModelMuzzleExtensionSkinSelection": 0,
-		"ModelScopeSelection": 1,
+		"ModelScopeSelection": 2,
 		"ModelScopeSkinSelection": 0
 	},
 	"ce475c6a-439d-49b7-ad54-325a2faae5a5": {
