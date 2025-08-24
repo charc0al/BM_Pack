@@ -2,8 +2,8 @@
     "b0f87b4e-a41c-4771-8c74-f56574129679": {
         "CommonName": "(Pistol) 1911 Charc0al Baller",
 		"ModelBodyPartSelections": [
-			1,
-			1,
+			0,
+			0,
 			1,
 			2,
 			1,
@@ -15,7 +15,7 @@
 		],
 		"ModelMuzzleExtensionSelection": 7,
 		"ModelMuzzleExtensionSkinSelection": 0,
-		"ModelScopeSelection": 1,
+		"ModelScopeSelection": 2,
 		"ModelScopeSkinSelection": 0,
 		"ModelSkinSelections": [
 			0,
