@@ -26,8 +26,6 @@
 		"Name_LOC": "ui_firearms_ar_needleface"
 	},
 	"eb9495e1-7d68-44ef-9025-a26770158b63": {
-		"AppliedModifiers": [
-			"a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"
-		]
+		"AppliedModifiers": ["a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"]
 	}
 }
