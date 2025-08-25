@@ -17,7 +17,9 @@
 	},
 	"0f991e64-354a-403a-afa5-b30285889377": {
 		"AppliedModifiers": ["a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"],
-		"CommonName": "(Pistol) Tactical ConcreteArt"
+		"CommonName": "(Pistol) Tactical ConcreteArt",
+		"ModelScopeSelection": 1,
+		"ModelScopeSkinSelection": 0
 	},
 	"10f0653c-fe9c-4a43-98f1-18d20d18d9ab": {
 		"AppliedModifiers": ["574309b9-25ca-4d78-a99d-2cdbff64c524", "a8c57e57-646b-4f1d-84a6-0fa4bbcb9944"],
