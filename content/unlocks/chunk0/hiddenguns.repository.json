@@ -30,14 +30,14 @@
 			"0ade8d9c-70d9-482d-914b-38afd93b9f63"
 		],
 		"ModelBodyPartSelections": [
-			0, 0, 1, 2, 1, 1, 1, 1, 4, 1
+			0, 0, 1, 2, 1, 1, 1, 0, 4, 1
 		],
 		"ModelMuzzleExtensionSelection": 7,
 		"ModelMuzzleExtensionSkinSelection": 1,
-		"ModelScopeSelection": 1,
+		"ModelScopeSelection": 0,
 		"ModelScopeSkinSelection": 0,
 		"ModelSkinSelections": [
-			0, 6, 4, 0, 0, 0, 0, 0, 0, 0, 1
+			0, 6, 4, 0, 0, 0, 0, 0, 0, 1, 1
 		]
 	},
 	"4bbe3b64-8bce-416e-a3e9-00bcd1571980": {
@@ -57,14 +57,14 @@
 		"CommonName": "(Pistol) The Wall Piecer",
 		"Name_LOC": "firearms_hero_wallbanger_name",
 		"ModelBodyPartSelections": [
-			1, 2, 1, 2, 1, 0, 1, 1, 0, 1
+			1, 4, 1, 1, 1, 0, 1, 1, 0, 1, 1
 		],
 		"ModelMuzzleExtensionSelection": 8,
 		"ModelMuzzleExtensionSkinSelection": 1,
 		"ModelScopeSelection": 2,
 		"ModelScopeSkinSelection": 1,
 		"ModelSkinSelections": [
-			4, 4, 1, 1, 3, 1, 4, 1, 0, 3, 2
+			0, 0, 0, 1, 3, 1, 4, 0, 0, 3, 2
 		]
 	},
 	"29f10687-7ff4-4d30-a12a-53054afb3558": {
