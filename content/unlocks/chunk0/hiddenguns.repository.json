@@ -3,14 +3,6 @@
 		"CommonName": "(TEST) (SMG) TAC SMG SMALL COVERT",
 		"Name_LOC": "firearms_hero_smg_tmp_name"
 	},
-	"b0f87b4e-a41c-4771-8c74-f56574129679": {
-		"CommonName": "(Pistol) ICA 19 Black Lilly S3",
-		"Name_LOC": "firearms_hero_pistol_ica19_blacklilly3_name"
-	},
-	"c44d3dc4-5e2f-403d-9f69-40111f3643db": {
-		"CommonName": "(Pistol) The Wall Piecer",
-		"Name_LOC": "firearms_hero_wallbanger_name"
-	},
 	"29f10687-7ff4-4d30-a12a-53054afb3558": {
 		"Name_LOC": "firearms_hero_pistol_concept5_dti_name"
 	},

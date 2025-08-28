@@ -9,12 +9,26 @@
 	"frameworkVersion": "2.33.26",
 	"contentFolders": [
 		"content/bloodmoneypack",
-		"content/Bloody47",
-		"content/MoreBlood",
 		"content/smallobjectives",
 		"content/shotgunblindfire"
 	],
 	"options": [
+		{
+			"name": "Blood",
+			"tooltip": "More blood = more money",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/MoreBlood"]
+		},
+		{
+			"name": "Bloody 47",
+			"tooltip": "2kpr's Bloody 47 mod. 47 bleeds when shot",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/Bloody47"]
+		},
 		{
 			"name": "Gun Mods",
 			"tooltip": "Buffs mag sizes and a few other properties of some guns. Nothing crazy.",

@@ -9,13 +9,11 @@
 				"ITEM_WEED_JOINT",
 				"ITEM_PROPANE_FLASK",
 				"ITEM_FIRE_EXTINGUISHER",
-				"FIREARMS_CONCEPT5_DTI",
-				"FIREARMS_WALL_PIERCER",
+				"FIREARMS_GOLDENBALLER",
 				"FIREARMS_HWK21_ASSASSIN",
 				"FIREARMS_HWK21_DTI",
 				"FIREARMS_SMG_NEEDLE",
 				"FIREARMS_SMG_SMALL_COVERT",
-				"FIREARMS_BLACKLILY_V3",
 				"FIREARMS_SHOTGUN_CLEARER",
 				"FIREARMS_AK_BLACK",
 				"FIREARMS_AR_NEEDLE",
@@ -195,28 +193,6 @@
 		},
 		"Rarity": "common"
 	},
-	"FIREARMS_CONCEPT5_DTI": {
-		"Id": "FIREARMS_CONCEPT5_DTI",
-		"Guid": "883c2da0-acde-432e-9588-fc7bd0c80642",
-		"Type": "weapon",
-		"Subtype": "pistol",
-		"ImageId": "",
-		"RMTPrice": -1,
-		"GamePrice": -1,
-		"IsPurchasable": false,
-		"IsPublished": true,
-		"IsDroppable": false,
-		"Capabilities": [],
-		"Qualities": {},
-		"Properties": {
-			"Quality": 3,
-			"LoadoutSlot": "concealedweapon",
-			"IsContainer": false,
-			"Rarity": "common",
-			"RepositoryId": "29f10687-7ff4-4d30-a12a-53054afb3558"
-		},
-		"Rarity": "common"
-	},
 	"ITEM_PROPANE_FLASK": {
 		"Id": "ITEM_PROPANE_FLASK",
 		"Guid": "9226134a-fc7b-4506-8dbd-5d53b96a7e55",
@@ -307,9 +283,9 @@
 		},
 		"Rarity": "common"
 	},
-	"FIREARMS_WALL_PIERCER": {
-		"Id": "FIREARMS_WALL_PIERCER",
-		"Guid": "2ea4b49c-9015-447b-8046-607b8f3f2a61",
+	"FIREARMS_GOLDENBALLER": {
+		"Id": "FIREARMS_GOLDENBALLER",
+		"Guid": "f1d93ea5-948b-479c-a00a-2256989e7bce",
 		"Type": "weapon",
 		"Subtype": "pistol",
 		"ImageId": "",
@@ -325,29 +301,7 @@
 			"LoadoutSlot": "concealedweapon",
 			"IsContainer": false,
 			"Rarity": "common",
-			"RepositoryId": "c44d3dc4-5e2f-403d-9f69-40111f3643db"
-		},
-		"Rarity": "common"
-	},
-	"FIREARMS_BLACKLILY_V3": {
-		"Id": "FIREARMS_BLACKLILY_V3",
-		"Guid": "6c878c53-7d7c-40c4-9263-cf5792f68e8d",
-		"Type": "weapon",
-		"Subtype": "pistol",
-		"ImageId": "",
-		"RMTPrice": -1,
-		"GamePrice": -1,
-		"IsPurchasable": false,
-		"IsPublished": true,
-		"IsDroppable": false,
-		"Capabilities": [],
-		"Qualities": {},
-		"Properties": {
-			"Quality": 3,
-			"LoadoutSlot": "concealedweapon",
-			"IsContainer": false,
-			"Rarity": "common",
-			"RepositoryId": "b0f87b4e-a41c-4771-8c74-f56574129679"
+			"RepositoryId": "6eccc7e1-e31b-42de-8f84-b88d8e0032ea"
 		},
 		"Rarity": "common"
 	},
