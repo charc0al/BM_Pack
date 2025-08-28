@@ -2,9 +2,10 @@
 1 - extra grip
 2 - ??
 3 - mag
-4 - ??
+4 - ?hammer?
 5 - lower body
 6 - upper?
 7 - rail
-8 - 
-9 - 
+8 - upper?
+9 - trigger?
+10 - 
