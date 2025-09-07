@@ -11,7 +11,7 @@
 	"options": [
 		{
 			"name": "Blood",
-			"tooltip": "More blood = more money",
+			"tooltip": "More blood mod, but updated to include extra weapons missing from it",
 			"group": "Other",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -24,6 +24,14 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/Bloody47"]
+		},
+		{
+			"name": "Blood Money Loadout",
+			"tooltip": "Standard BM loadout items, changed capacity cost to 0 for freelancer so you don't always have to drop them.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/loadout"]
 		},
 		{
 			"name": "Gun Mods",
