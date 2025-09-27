@@ -21,14 +21,20 @@
 	},
 	"5b497a01-7941-474f-ac36-2b0490b528a4": {
 		"ActorConfiguration": {
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5,
 			"AllowPrecisionShot": true,
 			"AllowPrecisionTimeSlowdown": true
 		},
 		"PrimaryConfiguration": {
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5,
 			"AllowPrecisionShot": true,
 			"AllowPrecisionTimeSlowdown": true
 		},
 		"SecondaryConfiguration": {
+			"PrecisionUnaimedMaxDegree": 1,
+			"PrecisionUnaimedMinDegree": 0.5,
 			"AllowPrecisionShot": true,
 			"AllowPrecisionTimeSlowdown": true
 		}
