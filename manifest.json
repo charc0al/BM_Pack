@@ -4,9 +4,9 @@
 	"updateCheck": "https://github.com/charc0al/BM_Pack/releases/latest/download/updates.json",
 	"id": "Charc0al.BloodMoneyPack",
 	"name": "Blood Money Pack",
-	"description": "A collection of Blood Money themed mods",
+	"description": "A collection of Blood Money themed mods, and more",
 	"authors": ["Charc0al"],
-	"frameworkVersion": "2.33.29",
+	"frameworkVersion": "2.33.26",
 	"contentFolders": ["content/bloodmoneypack", "content/smallobjectives", "content/shotgunblindfire"],
 	"options": [
 		{
@@ -79,6 +79,22 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/unlocks"]
+		},
+		{
+			"name": "Impact - Rifles",
+			"tooltip": "Realistic impact for assault rifles.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/impact/rifle"]
+		},
+		{
+			"name": "Impact - SMGs",
+			"tooltip": "Realistic impact for assault SMGs.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/impact/smg"]
 		},
 		{
 			"name": "Custom Localization",
