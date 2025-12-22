@@ -1,12 +1,12 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.13.2",
+	"version": "1.14.0",
 	"updateCheck": "https://github.com/charc0al/BM_Pack/releases/latest/download/updates.json",
 	"id": "Charc0al.BloodMoneyPack",
 	"name": "Blood Money Pack",
 	"description": "A collection of Blood Money themed mods, and more",
 	"authors": ["Charc0al"],
-	"frameworkVersion": "2.33.26",
+	"frameworkVersion": "2.33.33",
 	"contentFolders": ["content/bloodmoneypack", "content/smallobjectives", "content/shotgunblindfire"],
 	"options": [
 		{
