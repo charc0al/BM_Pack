@@ -10,6 +10,29 @@
 	"contentFolders": ["content/bloodmoneypack", "content/smallobjectives", "content/shotgunblindfire"],
 	"options": [
 		{
+			"name": "None",
+			"tooltip": "Vanilla sounds",
+			"group": "PISTOL",
+			"type": "select",
+			"enabledByDefault": true
+		},
+		{
+			"name": "Pistol Sounds 1",
+			"tooltip": "Hacked pistol sounds",
+			"group": "PISTOL",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/1"]
+		},
+		{
+			"name": "Pistol Sounds 2",
+			"tooltip": "Hacked pistol sounds",
+			"group": "PISTOL",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/2"]
+		},
+		{
 			"name": "Blood",
 			"tooltip": "More blood mod, but updated to include extra weapons missing from it",
 			"group": "Other",
