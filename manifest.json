@@ -11,14 +11,14 @@
 	"options": [
 		{
 			"name": "None",
-			"tooltip": "Vanilla sounds",
+			"tooltip": "Vanilla sound mods back in (by Dextrous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": true
 		},
 		{
 			"name": "Pistol Sounds 1",
-			"tooltip": "Hacked pistol sounds",
+			"tooltip": "Hacked pistol sound mods back in (by Dextrous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
