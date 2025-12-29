@@ -11,7 +11,7 @@
 	"options": [
 		{
 			"name": "None",
-			"tooltip": "Vanilla sound mods back in (by Dextrous)",
+			"tooltip": "Vanilla sounds",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": true
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Pistol Silenced Pistol Sounds 2",
-			"tooltip": "Hacked pistol sounds",
+			"tooltip": "Real Silenced Pistols 2 (by Dextrous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
@@ -43,7 +43,7 @@
 		{
 			"name": "Breaking Bad Unsilenced",
 			"tooltip": "Real Silenced Pistols (by Dextrous)",
-			"group": "select",
+			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["content/pistolsounds/bb_unsilenced"]
@@ -51,7 +51,7 @@
 		{
 			"name": "Breaking Bad - All",
 			"tooltip": "Mike's silenced + Breaking Bad Unsilenced (by Dextrous)",
-			"group": "select",
+			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["content/pistolsounds/bb_all"]
