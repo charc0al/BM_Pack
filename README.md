@@ -6,4 +6,4 @@ A collection of Blood Money themed mods, and more
 
 ---
 
-`Charc0al.BloodMoneyPack` v1.15.0, by Charc0al. This README was automatically generated from the mod's manifest.
+`Charc0al.BloodMoneyPack` v1.15.1, by Charc0al. This README was automatically generated from the mod's manifest.
