@@ -18,19 +18,43 @@
 		},
 		{
 			"name": "Pistol Sounds 1",
-			"tooltip": "Hacked pistol sound mods back in (by Dextrous)",
+			"tooltip": "Real Silenced Pistols (by Dextrous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["content/pistolsounds/1"]
 		},
 		{
-			"name": "Pistol Sounds 2",
+			"name": "Pistol Silenced Pistol Sounds 2",
 			"tooltip": "Hacked pistol sounds",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["content/pistolsounds/2"]
+		},
+		{
+			"name": "Mike's Silenced",
+			"tooltip": "Breaking Bad Mike's silenced pistols (by Dextrous)",
+			"group": "PISTOL",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/mike"]
+		},
+		{
+			"name": "Breaking Bad Unsilenced",
+			"tooltip": "Real Silenced Pistols (by Dextrous)",
+			"group": "select",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/bb_unsilenced"]
+		},
+		{
+			"name": "Breaking Bad - All",
+			"tooltip": "Mike's silenced + Breaking Bad Unsilenced (by Dextrous)",
+			"group": "select",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/bb_all"]
 		},
 		{
 			"name": "Blood",
