@@ -18,15 +18,15 @@
 		},
 		{
 			"name": "Pistol Sounds 1",
-			"tooltip": "Real Silenced Pistols (by Dextrous)",
+			"tooltip": "Real Silenced Pistols + Breaking Bad Unsilenced (by Dexterous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["content/pistolsounds/1"]
 		},
 		{
-			"name": "Pistol Silenced Pistol Sounds 2",
-			"tooltip": "Real Silenced Pistols 2 (by Dextrous)",
+			"name": "Pistol Sounds 2",
+			"tooltip": "Real Silenced Pistols 2 + Breaking Bad Unsilenced (by Dexterous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "Mike's Silenced",
-			"tooltip": "Breaking Bad Mike's silenced pistols (by Dextrous)",
+			"tooltip": "Breaking Bad Mike's silenced pistols (by Dexterous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
@@ -42,7 +42,7 @@
 		},
 		{
 			"name": "Breaking Bad Unsilenced",
-			"tooltip": "Real Silenced Pistols (by Dextrous)",
+			"tooltip": "Real Silenced Pistols (by Dexterous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "Breaking Bad - All",
-			"tooltip": "Mike's silenced + Breaking Bad Unsilenced (by Dextrous)",
+			"tooltip": "Mike's silenced + Breaking Bad Unsilenced (by Dexterous)",
 			"group": "PISTOL",
 			"type": "select",
 			"enabledByDefault": false,
