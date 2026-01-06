@@ -7,7 +7,7 @@
 	"description": "A collection of Blood Money themed mods, and more",
 	"authors": ["Charc0al"],
 	"frameworkVersion": "2.33.33",
-	"contentFolders": ["content/bloodmoneypack", "content/smallobjectives", "content/shotgunblindfire"],
+	"contentFolders": ["content/bloodmoneypack", "content/smallobjectives", "content/shotgunblindfire", "content/molotov"],
 	"options": [
 		{
 			"name": "None",
