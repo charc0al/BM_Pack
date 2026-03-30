@@ -57,7 +57,7 @@
 		},
 		{
 			"name": "Main",
-			"tooltip": "Main mod bundle. Includes: Blood Money Loadout, No Aiming Zoom, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix",
+			"tooltip": "Main mod bundle. Includes: Blood Money Loadout, No Aiming Zoom, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix, Baldy's Leviathan Scope Fix",
 			"group": "Other",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -165,6 +165,14 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/molotov"]
+		},
+		{
+			"name": "China Door Hacking",
+			"tooltip": "You only need the dongle to get through doors in Chongqing, no need to do the stupid camera hacking.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/chinadoors"]
 		},
 		{
 			"name": "Custom Localization",
