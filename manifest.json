@@ -7,7 +7,6 @@
 	"description": "A collection of Blood Money themed mods, and more",
 	"authors": ["Charc0al"],
 	"frameworkVersion": "2.33.33",
-	"contentFolders": ["content/bloodmoneypack", "content/smallobjectives", "content/shotgunblindfire", "content/molotov"],
 	"options": [
 		{
 			"name": "None",
@@ -57,6 +56,14 @@
 			"contentFolders": ["content/pistolsounds/bb_all"]
 		},
 		{
+			"name": "Main",
+			"tooltip": "Main mod bundle. Includes: Blood Money Loadout, No Aiming Zoom, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/bloodmoneypack", "content/shotgunblindfire"]
+		},
+		{
 			"name": "Blood",
 			"tooltip": "More blood mod, but updated to include extra weapons missing from it",
 			"group": "Other",
@@ -82,7 +89,7 @@
 		},
 		{
 			"name": "Gun Mods",
-			"tooltip": "Buffs mag sizes and a few other properties of some guns. Nothing crazy.",
+			"tooltip": "Buffs mag sizes and a few other properties of some ugly guns. Nothing crazy.",
 			"group": "Other",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -90,7 +97,7 @@
 		},
 		{
 			"name": "Throwables - knockdown",
-			"tooltip": "Better thrown object properties",
+			"tooltip": "Changes certain lightweight throwables to only knock down",
 			"group": "Other",
 			"type": "checkbox",
 			"contentFolders": ["content/throwables"]
@@ -142,6 +149,22 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/impact/smg"]
+		},
+		{
+			"name": "Smaller Timer and Objectives",
+			"tooltip": "Smaller timer and objectives mod",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/smallobjectives"]
+		},
+		{
+			"name": "Molotov Fixes",
+			"tooltip": "Molotov no longer explodes, fire counts as accident",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/molotov"]
 		},
 		{
 			"name": "Custom Localization",
