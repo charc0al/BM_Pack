@@ -10,7 +10,12 @@
 					"name": "ItemKey_MINE",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "7c691c03-7c6b-4eb4-9a68-898efe5eedaa" } }
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "7c691c03-7c6b-4eb4-9a68-898efe5eedaa"
+						}
+					}
 				}
 			]
 		},
@@ -23,7 +28,10 @@
 					"factory": "[modules:/zvoidsignalonceentity.class].pc_entitytype",
 					"blueprint": "[modules:/zvoidsignalonceentity.class].pc_entityblueprint",
 					"properties": {
-						"m_fExpireInterval": { "type": "float32", "value": 5 },
+						"m_fExpireInterval": {
+							"type": "float32",
+							"value": 5
+						},
 						"m_bSignaling": { "type": "bool", "value": true }
 					},
 					"events": {
@@ -55,22 +63,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedd24db4ca2ea2" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feedd24db4ca2ea2"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -83,7 +119,12 @@
 					"name": "ItemKey_EMETIC",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "1c50d6e0-11c8-4cbc-be05-f51a8e5013be" } }
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "1c50d6e0-11c8-4cbc-be05-f51a8e5013be"
+						}
+					}
 				}
 			]
 		},
@@ -95,7 +136,9 @@
 					"name": "GameEventListener",
 					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
 					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-					"events": { "EventOccurred": { "Signal": ["feed19557052932e"] } }
+					"events": {
+						"EventOccurred": { "Signal": ["feed19557052932e"] }
+					}
 				}
 			]
 		},
@@ -111,22 +154,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feed80c26013ebb5" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feed80c26013ebb5"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -139,7 +210,12 @@
 					"name": "ItemKey_LETHAL",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "af9ad679-6a7c-4f8e-9700-ceb5e6887666" } }
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "af9ad679-6a7c-4f8e-9700-ceb5e6887666"
+						}
+					}
 				}
 			]
 		},
@@ -155,22 +231,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedb55e34129470" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feedb55e34129470"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -187,22 +291,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedfbfc445ae36d" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feedfbfc445ae36d"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -219,22 +351,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedfbfc445ae36d" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feedfbfc445ae36d"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -247,7 +407,12 @@
 					"name": "ItemKey_FIBERWIRE",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "1a11a060-358c-4054-98ec-d3491af1d7c6" } }
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "1a11a060-358c-4054-98ec-d3491af1d7c6"
+						}
+					}
 				}
 			]
 		},
@@ -263,22 +428,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feed0d2220fe0c18" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feed0d2220fe0c18"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -295,22 +488,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedfbfc445ae36d" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feedfbfc445ae36d"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -323,7 +544,12 @@
 					"name": "ItemKey_SEDATIVE",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "c45e59f4-d8e1-4c37-b079-8b74b1fe9b24" } }
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c45e59f4-d8e1-4c37-b079-8b74b1fe9b24"
+						}
+					}
 				}
 			]
 		},
@@ -339,22 +565,50 @@
 						"m_mTransform": {
 							"type": "SMatrix43",
 							"value": {
-								"rotation": { "x": 0, "y": 0, "z": -46.44890213012695 },
-								"position": { "x": 18.93832015991211, "y": 13.000089645385742, "z": 17.271379470825195 }
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": -46.44890213012695
+								},
+								"position": {
+									"x": 18.93832015991211,
+									"y": 13.000089645385742,
+									"z": 17.271379470825195
+								}
 							}
 						},
-						"m_bUsePlacementAttach": { "type": "bool", "value": false },
-						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feed3131f50ecfd0" },
-						"m_bSpawnOnStart": { "type": "bool", "value": false },
-						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
-						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+						"m_bUsePlacementAttach": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feed3131f50ecfd0"
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_STATIC"
+						},
 						"m_bVisible": { "type": "bool", "value": true },
 						"m_bIsPrivate": { "type": "bool", "value": false },
-						"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"events": {
 						"Item": { "SetItem": ["feedf8c17804c470"] },
-						"ItemReady": { "PickupIntoPocket": ["feedf8c17804c470"] }
+						"ItemReady": {
+							"PickupIntoPocket": ["feedf8c17804c470"]
+						}
 					}
 				}
 			]
@@ -364,7 +618,7 @@
 				"feede52dc5f99ba8",
 				{
 					"parent": "158cb860b1fce56d",
-					"name": "items yippee",
+					"name": "Blood Money Loadout",
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 				}
@@ -390,7 +644,12 @@
 					"name": "ItemKey_COIN",
 					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "dda002e9-02b1-4208-82a5-cf059f3c79cf" } }
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+						}
+					}
 				}
 			]
 		}

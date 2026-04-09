@@ -72,6 +72,14 @@
 			"contentFolders": ["content/MoreBlood"]
 		},
 		{
+			"name": "Blood - Melee",
+			"tooltip": "More blood for melee attacks",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/meleeblood"]
+		},
+		{
 			"name": "Bloody 47",
 			"tooltip": "2kpr's Bloody 47 mod. 47 bleeds when shot",
 			"group": "Other",
