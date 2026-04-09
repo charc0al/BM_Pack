@@ -4,6 +4,17 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"1a4792a8cf371254",
+				{
+					"SetPropertyValue": {
+						"property_name": "Delay time (ms)",
+						"value": 60000
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"c75d5db591991f63",
 				{
 					"SetPropertyValue": {
@@ -31,28 +42,6 @@
 					"SetPropertyValue": {
 						"property_name": "StartMaxSize",
 						"value": 15.1
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"c75d5db591991f63",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_fTimeToLiveSecondsMin",
-						"value": 1.01
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"c75d5db591991f63",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_fTimeToLiveSecondsMax",
-						"value": 1.51
 					}
 				}
 			]
@@ -129,7 +118,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fTimeToLiveSecondsMin",
-						"value": 1.2000000059604643
+						"value": 0.8000000059604643
 					}
 				}
 			]
@@ -140,7 +129,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fTimeToLiveSecondsMax",
-						"value": 1.5
+						"value": 1.0
 					}
 				}
 			]
@@ -152,6 +141,17 @@
 					"SetPropertyValue": {
 						"property_name": "StartMinSize",
 						"value": 3.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0a32d3d25d12fa7e",
+				{
+					"SetPropertyValue": {
+						"property_name": "Delay time (ms)",
+						"value": 15000
 					}
 				}
 			]
@@ -174,6 +174,17 @@
 					"SetPropertyValue": {
 						"property_name": "m_fParticlesPerSecondMax",
 						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"94b771588bd0c650",
+				{
+					"SetPropertyValue": {
+						"property_name": "Delay time (ms)",
+						"value": 15000
 					}
 				}
 			]
@@ -217,7 +228,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fTimeToLiveSecondsMin",
-						"value": 0.75
+						"value": 0.5
 					}
 				}
 			]
@@ -228,7 +239,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fTimeToLiveSecondsMax",
-						"value": 1.800000023841858
+						"value": 1.200000023841858
 					}
 				}
 			]
@@ -295,9 +306,9 @@
 					"SetPropertyValue": {
 						"property_name": "m_vGlobalSize",
 						"value": {
-							"x": 0.15000000074505807,
-							"y": 0.15000000074505807,
-							"z": 0.15000000074505807
+							"x": 0.1500000007450581,
+							"y": 0.1500000007450581,
+							"z": 0.1500000007450581
 						}
 					}
 				}
@@ -364,7 +375,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fTimeToLiveSecondsMin",
-						"value": 1.21
+						"value": 0.82
 					}
 				}
 			]
@@ -375,7 +386,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fTimeToLiveSecondsMax",
-						"value": 1.51
+						"value": 1.02
 					}
 				}
 			]

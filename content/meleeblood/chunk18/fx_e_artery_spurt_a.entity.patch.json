@@ -118,7 +118,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fDecalSizeA",
-						"value": 0.06500000037252902
+						"value": 0.6500000037252902
 					}
 				}
 			]
@@ -129,7 +129,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_fDecalSizeB",
-						"value": 0.15499999970197678
+						"value": 1.5499999970197678
 					}
 				}
 			]
