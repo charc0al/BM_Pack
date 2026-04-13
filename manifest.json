@@ -64,11 +64,11 @@
 			"contentFolders": ["content/bloodmoneypack", "content/shotgunblindfire"]
 		},
 		{
-			"name": "Blood",
+			"name": "Blood (deprecated - use More Blood COMPLETE instead!)",
 			"tooltip": "More blood mod, but updated to include extra weapons missing from it",
 			"group": "Other",
 			"type": "checkbox",
-			"enabledByDefault": true,
+			"enabledByDefault": false,
 			"contentFolders": ["content/MoreBlood"]
 		},
 		{
