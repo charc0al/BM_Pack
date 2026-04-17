@@ -57,7 +57,7 @@
 		},
 		{
 			"name": "Main",
-			"tooltip": "Main mod bundle. Includes: Blood Money Loadout, No Aiming Zoom, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix, Baldy's Leviathan Scope Fix",
+			"tooltip": "Main mod bundle. Includes: Blood Money Loadout, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix, Baldy's Leviathan Scope Fix",
 			"group": "Other",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -157,6 +157,14 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/smallobjectives"]
+		},
+		{
+			"name": "No Aiming Zoom",
+			"tooltip": "Camera doesn't zoom way in while aiming. More like Blood Money.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/zoom"]
 		},
 		{
 			"name": "Molotov Fixes",
