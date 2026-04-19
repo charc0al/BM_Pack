@@ -183,6 +183,14 @@
 			"contentFolders": ["content/chinadoors"]
 		},
 		{
+			"name": "Durian Illegal in Bangkok",
+			"tooltip": "Makes the durian an illegal item in Bangkok, just like it is in real hotels there.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/durian"]
+		},
+		{
 			"name": "Custom Localization",
 			"tooltip": "Minimalist HUD settings and a few other renames",
 			"group": "Other",

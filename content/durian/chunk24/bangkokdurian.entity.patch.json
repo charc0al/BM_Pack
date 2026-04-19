@@ -1,0 +1,74 @@
+{
+	"tempHash": "00B6105D301BCBA8",
+	"tbluHash": "0080DB697ACC3145",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafec205ccd9b110",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "Durian",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe576a807c1666",
+				{
+					"parent": "cafec205ccd9b110",
+					"name": "IllegalAction",
+					"factory": "[modules:/zillegalactionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zillegalactionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pEnabledCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe76b1ee8eff71"
+						},
+						"m_bIsIllegal": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe76b1ee8eff71",
+				{
+					"parent": "cafec205ccd9b110",
+					"name": "HeroItemCondition",
+					"factory": "[modules:/zheroitemcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zheroitemcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_ItemKeyToFind": {
+							"type": "SEntityTemplateReference",
+							"value": "cafed1981e179b65"
+						}
+					},
+					"events": {
+						"OnTrue": { "Trigger": ["cafe576a807c1666"] },
+						"OnFalse": { "Abort": ["cafe576a807c1666"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed1981e179b65",
+				{
+					"parent": "cafe76b1ee8eff71",
+					"name": "ItemKey",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "72cb6124-36eb-4c25-8da0-78d4c5fac459"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
