@@ -1,1 +1,28 @@
-{"tempHash":"0009F72CB5D90FDF","tbluHash":"004C69B6337945A6","patch":[{"RemoveEntityByID":"365df1d1d9fac608"},{"SubEntityOperation":["6aaf5f1890466544",{"RemoveAllEventConnectionsForTrigger":["OnInitialFracture","TriggerMediumExplosion"]}]},{"SubEntityOperation":["5c744eb3a57e8b6f",{"SetPropertyValue":{"property_name":"m_pDramaTemplate","value":{"resource":"[assembly:/_pro/design/gamecore/deatheffects.template?/deathanimstand_burn.entitytemplate].pc_entitytemplate","flag":"5F"}}}]}],"patchVersion":6}
+{
+	"tempHash": "0009F72CB5D90FDF",
+	"tbluHash": "004C69B6337945A6",
+	"patch": [
+		{ "RemoveEntityByID": "365df1d1d9fac608" },
+		{
+			"SubEntityOperation": [
+				"6aaf5f1890466544",
+				{ "RemoveAllEventConnectionsForTrigger": ["OnInitialFracture", "TriggerMediumExplosion"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5c744eb3a57e8b6f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pDramaTemplate",
+						"value": {
+							"resource": "[assembly:/_pro/design/gamecore/deatheffects.template?/deathanimstand_burn.entitytemplate].pc_entitytemplate",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
