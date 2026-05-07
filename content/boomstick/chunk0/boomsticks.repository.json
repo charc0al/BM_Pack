@@ -1,0 +1,563 @@
+{
+	"060a7564-97e8-4fef-8d62-f6dacbca390f": {
+		"CommonName": "Archmesh Shotgun Stealth",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"0af419f5-e6d3-488d-b133-6ce0964b0770": {
+		"CommonName": "(Shotgun) Bartoli 12G Short",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"23e1031b-879d-4b04-ada9-b684d9d16c22": {
+		"CommonName": "(Shotgun) Enram HV Covert Luxurious",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"33cadd6f-3813-4be1-8e50-bd6819cb9b13": {
+		"CommonName": "ICA Tactical Shotgun Covert",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"35182a4f-9707-42ac-b449-77fce3f5f677": {
+		"CommonName": "Firearms Hero Shotgun Heavy Base",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"407df651-52d4-4871-a903-db677a7568ed": {
+		"CommonName": "(IG) Shotgun Hero ConcreteArt Bartoli 12G Tactical",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 80.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 80.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 80.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 80.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"4e92b3c5-3358-44aa-8a87-f7f349f46f44": {
+		"CommonName": "ICA Tactical Shotgun (Wolverine) NPC",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"507f3f6e-4681-4efa-96f9-58411d7fecf8": {
+		"CommonName": "(Shotgun) Enram BeanBag",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"545ff36e-b43c-4a35-9ab3-680b23b9e354": {
+		"CommonName": "(Shotgun) Enram HV Covert",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"6696a10d-9138-4184-8104-a6c7ec2e0eb1": {
+		"CommonName": "Reward Hunting Shotgun Deluxe",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 100.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 100.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 100.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 100.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"785c3c6b-1272-4853-94f0-a41d52f64795": {
+		"CommonName": "NPC Hunting Shotgun",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 80.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 80.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 80.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 80.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"7f31d897-a62f-448c-be0d-79d565e2faa7": {
+		"CommonName": "Shotgun02 NPC Bartoli 12G",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"8598ae82-53ac-43ba-9f43-30140d6ba7ee": {
+		"CommonName": "(Shotgun) Sawed Off Bartoli 12G Gold",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"86522179-2cc9-4bae-af70-8d42e423918b": {
+		"CommonName": "(TEST) BB 20 Covert",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"881979b0-c506-41a5-bc7a-a63ba4c812ad": {
+		"CommonName": "Firearms Hero Shotgun Standard Base",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"901a3b51-51a0-4236-bdf2-23d20696b358": {
+		"CommonName": "(Shotgun) (NPC) Tactical Bartoli 12G",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"935fd34c-e58c-45d3-bc66-3144752b001b": {
+		"CommonName": "Ancestral Shotgun",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 110.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 110.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 110.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 110.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"94939b01-fda2-422e-99cf-c5f3edb2076a": {
+		"CommonName": "(Shotgun) Enram BeanBag Covert",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"9fcf5400-0784-4e71-ad57-a3e17cf88bc3": {
+		"CommonName": "(Shotgun) Sawed Off Bartoli 12G MakeshiftScrap",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"b0314606-caa4-4a2c-a3e2-bd011f98cfdf": {
+		"CommonName": "(Shotgun) Enram HV Covert S2",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"b5481de5-6446-46b3-903f-e0040f46b7f0": {
+		"CommonName": "(Shotgun) NPC Bartoli 12G SAWED",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"b58f4e9f-60b1-4bcb-bd87-b11dbcb8e6b2": {
+		"CommonName": "(Shotgun) Sawed Off Bartoli 12G",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"be285364-e3a9-439c-8d00-2953080b6ed5": {
+		"CommonName": "Archmesh Shotgun NPC",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"d4f6e560-cf9f-4a0a-955d-787577b073d6": {
+		"CommonName": "Firearms Shotgun SawedOff Gluttony",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"d5728a0f-fe8d-4e2d-9350-03cf4243c98e": {
+		"CommonName": "(Shotgun) Enram HV",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"eb9495e1-7d68-44ef-9025-a26770158b63": {
+		"CommonName": "Firearms Hero Exotic Shotgun Room Clearer",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 110.0,
+			"RagdollImpactUpKick": 15.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 110.0,
+			"RagdollImpactUpKick": 15.0
+		},
+		"RagdollImpactForce": 100.0,
+		"RagdollImpactUpkick": 20.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 100.0,
+			"RagdollImpactUpKick": 20.0
+		}
+	},
+	"eca66732-a356-4c13-8e33-d0f7e87b5860": {
+		"CommonName": "(Shotgun) Bartoli 12G H",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"ef4c35c7-b7d4-4886-81b5-fda089f91173": {
+		"CommonName": "ICA Tactical Shotgun",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"f205ab30-bd46-4ad5-97f1-a728360e7131": {
+		"CommonName": "(Shotgun) Enram BeanBag Mini",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"f45868b6-e4b2-4cd3-ad9c-d0a727b39dba": {
+		"CommonName": "Firearms Hero Shotgun SemiAuto Base",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"f6657618-d723-419f-a71b-84d0e93402e3": {
+		"CommonName": "(Shotgun) Enram HV CM",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"f8f1acee-cb96-47a0-a969-4527251a713d": {
+		"CommonName": "ICA Tactical Shotgun (Wolverine)",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 50.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 50.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	},
+	"fd3b571c-d2ec-49d0-937a-641ac7fa4cb3": {
+		"CommonName": "(Shotgun) Bartoli 12G Short",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		},
+		"RagdollImpactForce": 65.0,
+		"RagdollImpactUpkick": 0.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 65.0,
+			"RagdollImpactUpKick": 0.0
+		}
+	}
+}

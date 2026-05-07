@@ -88,6 +88,14 @@
 			"contentFolders": ["content/loadout"]
 		},
 		{
+			"name": "Boomsticks - Powerful Shotguns",
+			"tooltip": "Gives more knockback to shotguns and removes upkick. More like Blood Money. Download the full mod if you want more options.",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/boomstick"]
+		},
+		{
 			"name": "Gun Mods",
 			"tooltip": "Buffs mag sizes and a few other properties of some ugly guns. Nothing crazy.",
 			"group": "Other",
