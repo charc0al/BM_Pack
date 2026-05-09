@@ -1,0 +1,50 @@
+{
+	"tempHash": "00D347CBA29EE6BA",
+	"tbluHash": "000A263E54999100",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe45f3d63324cb",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "zhm5cripplebox",
+					"factory": "[modules:/zhm5cripplebox.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5cripplebox.class].pc_entityblueprint",
+					"properties": {
+						"m_bActivateOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bUseDeathAnimation": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb34213193432",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "zgameeventlistenerentity",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEvent": {
+							"type": "EGameEventType",
+							"value": "GET_IntroCutEnd"
+						}
+					},
+					"events": {
+						"EventOccurred": {
+							"Activate": ["cafe45f3d63324cb"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

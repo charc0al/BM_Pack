@@ -1,0 +1,18 @@
+{
+	"tempHash": "000009139F09FA6B",
+	"tbluHash": "00B0010F91123325",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"d6e8e607e2adbb75",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bUseDeathAnimation",
+						"value": false
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

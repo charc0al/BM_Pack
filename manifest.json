@@ -183,6 +183,14 @@
 			"contentFolders": ["content/molotov"]
 		},
 		{
+			"name": "Ragdoll Death",
+			"tooltip": "Ragdoll Death mod by Notex. Adding it here for now since it's removed from Nexus and github",
+			"group": "Other",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/ragdoll"]
+		},
+		{
 			"name": "China Door Hacking",
 			"tooltip": "You only need the dongle to get through doors in Chongqing, no need to do the stupid camera hacking.",
 			"group": "Other",

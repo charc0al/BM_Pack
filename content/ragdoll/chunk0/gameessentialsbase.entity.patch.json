@@ -1,0 +1,18 @@
+{
+	"tempHash": "0093B7139387B988",
+	"tbluHash": "004D99E9BEC3EA51",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6f435b1fa1b3704e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bPauseGame",
+						"value": false
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
