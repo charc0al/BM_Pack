@@ -16,6 +16,22 @@
 			"enabledByDefault": true
 		},
 		{
+			"name": "Real Silenced Pistols 1",
+			"tooltip": "Fixed version of Real Silenced Pistols (by Dexterous)",
+			"group": "PISTOL",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/silenced1"]
+		},
+		{
+			"name": "Real Silenced Pistols 2",
+			"tooltip": "Fixed version of Real Silenced Pistols 2 (unreleased mod by Dexterous)",
+			"group": "PISTOL",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/pistolsounds/silenced2"]
+		},
+		{
 			"name": "Pistol Sounds 1",
 			"tooltip": "Real Silenced Pistols + Breaking Bad Unsilenced (by Dexterous)",
 			"group": "PISTOL",
@@ -276,6 +292,14 @@
 			"group": "Menu Music",
 			"type": "select",
 			"enabledByDefault": false
+		},
+		{
+			"name": "2016",
+			"tooltip": "Hitman 2016 main theme",
+			"group": "Menu Music",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/music/2016"]
 		},
 		{
 			"name": "Ave Maria",
