@@ -1,0 +1,62 @@
+{
+	"tempHash": "00FC307725885E46",
+	"tbluHash": "00637D7DB15D3C65",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9837592c57115bf1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eEmitterEffect",
+						"value": "eCCEmitterEffect_Stab"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9837592c57115bf1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eDecalEffect",
+						"value": "eCCDecalEffect_Stab"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"893c5544203e35b0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eEmitterEffect",
+						"value": "eCCEmitterEffect_AxePull"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"893c5544203e35b0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eDecalEffect",
+						"value": "eCCDecalEffect_AxeCleave"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f66e60df90880b9b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eEmitterEffect",
+						"value": "eCCEmitterEffect_AxeSlitThroat"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
