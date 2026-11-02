@@ -1,336 +1,401 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.23.0",
-	"updateCheck": "https://github.com/charc0al/BM_Pack/releases/latest/download/updates.json",
-	"id": "Charc0al.BloodMoneyPack",
-	"name": "Blood Money Pack",
-	"description": "A collection of Blood Money themed mods, and more",
-	"authors": ["Charc0al"],
-	"frameworkVersion": "2.33.33",
-	"options": [
-		{
-			"name": "None",
-			"tooltip": "Vanilla sounds",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": true
-		},
-		{
-			"name": "Real Silenced Pistols 1",
-			"tooltip": "Fixed version of Real Silenced Pistols (by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/silenced1"]
-		},
-		{
-			"name": "Real Silenced Pistols 2",
-			"tooltip": "Fixed version of Real Silenced Pistols 2 (unreleased mod by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/silenced2"]
-		},
-		{
-			"name": "Pistol Sounds 1",
-			"tooltip": "Real Silenced Pistols + Breaking Bad Unsilenced (by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/1"]
-		},
-		{
-			"name": "Pistol Sounds 2",
-			"tooltip": "Real Silenced Pistols 2 + Breaking Bad Unsilenced (by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/2"]
-		},
-		{
-			"name": "Mike's Silenced",
-			"tooltip": "Breaking Bad Mike's silenced pistols (by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/mike"]
-		},
-		{
-			"name": "Breaking Bad Unsilenced",
-			"tooltip": "Real Silenced Pistols (by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/bb_unsilenced"]
-		},
-		{
-			"name": "Breaking Bad - All",
-			"tooltip": "Mike's silenced + Breaking Bad Unsilenced (by Dexterous)",
-			"group": "PISTOL",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/pistolsounds/bb_all"]
-		},
-		{
-			"name": "Main",
-			"tooltip": "Main mod bundle. Includes: Blood Money Loadout, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix, Baldy's Leviathan Scope Fix",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/bloodmoneypack", "content/shotgunblindfire"]
-		},
-		{
-			"name": "Blood (deprecated - use More Blood COMPLETE instead!)",
-			"tooltip": "More blood mod, but updated to include extra weapons missing from it",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": false,
-			"contentFolders": ["content/MoreBlood"]
-		},
-		{
-			"name": "Bloody 47",
-			"tooltip": "2kpr's Bloody 47 mod. 47 bleeds when shot",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/Bloody47"]
-		},
-		{
-			"name": "Blood Money Loadout",
-			"tooltip": "Standard BM loadout items, changed capacity cost to 0 for freelancer so you don't always have to drop them.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/loadout"]
-		},
-		{
-			"name": "Boomsticks - Powerful Shotguns",
-			"tooltip": "Gives more knockback to shotguns and removes upkick. More like Blood Money. Download the full mod if you want more options.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/boomstick"]
-		},
-		{
-			"name": "Gun Mods",
-			"tooltip": "Buffs mag sizes and a few other properties of some ugly guns. Nothing crazy.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/gunmods"]
-		},
-		{
-			"name": "Throwables - knockdown",
-			"tooltip": "Changes certain lightweight throwables to only knock down",
-			"group": "Other",
-			"type": "checkbox",
-			"contentFolders": ["content/throwables"]
-		},
-		{
-			"name": "Seeing Red",
-			"tooltip": "Blood Money style red low health filter",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/red"]
-		},
-		{
-			"name": "Focus + Blindfire",
-			"tooltip": "All weapons have focus + precise blind fire",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/focus_blindfire"]
-		},
-		{
-			"name": "Crowd Improvements",
-			"tooltip": "Crowd friendly fire and marrakesh shadows.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/crowd"]
-		},
-		{
-			"name": "Unlockables",
-			"tooltip": "Add bonus unlockables to the planning screen. Propane flask, frying pan, sniper case, among others.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/unlocks"]
-		},
-		{
-			"name": "Impact - Rifles",
-			"tooltip": "Realistic impact for assault rifles.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/impact/rifle"]
-		},
-		{
-			"name": "Impact - SMGs",
-			"tooltip": "Realistic impact for assault SMGs.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/impact/smg"]
-		},
-		{
-			"name": "Smaller Timer and Objectives",
-			"tooltip": "Smaller timer and objectives mod",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/smallobjectives"]
-		},
-		{
-			"name": "No Aiming Zoom",
-			"tooltip": "Camera doesn't zoom way in while aiming. More like Blood Money.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/zoom"]
-		},
-		{
-			"name": "Molotov Fixes",
-			"tooltip": "Molotov no longer explodes, fire counts as accident",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/molotov"]
-		},
-		{
-			"name": "Ragdoll Death",
-			"tooltip": "Ragdoll Death mod by Notex. Adding it here for now since it's removed from Nexus and github",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/ragdoll"]
-		},
-		{
-			"name": "China Door Hacking",
-			"tooltip": "You only need the dongle to get through doors in Chongqing, no need to do the stupid camera hacking.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/chinadoors"]
-		},
-		{
-			"name": "Durian Illegal in Bangkok",
-			"tooltip": "Makes the durian an illegal item in Bangkok, just like it is in real hotels there.",
-			"group": "Other",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/durian"]
-		},
-		{
-			"name": "Custom Localization",
-			"tooltip": "Minimalist HUD settings and a few other renames",
-			"group": "Other",
-			"type": "checkbox",
-			"localisationOverrides": {
-				"00D7C2D00F538B72": {
-					"english": {
-						"487572695": "Good morning 47. <br><br>Your target is the multi-billionaire MMA fighter, known simply as \"The Disruptor\". Tonight, he will be attending a duel at the Ark Society's headquarters on the Isle of Sgàil. His opponent is Tim Quinn, CEO of Quantum Leap and organizer of the event. <br><br>Mr. Quinn has lately become obsessed with the world of MMA, seeing himself as one of the best, though his talent is… questionable. It's a battle to the death, and the odds are certainly against him. <br><br>Some stakeholders have seen this as an opportunity to engage in a hostile takeover of Quantum Leap. And they will do everything they can to have The Disruptor win. However, our clients, still loyal to Quinn, have hired us to protect their asset and make sure this doesn't happen. <br><br>So do everything in your power to keep Quinn safe and stop Conor McGregor \"winning the fight\" at all cost. <br><br>Good luck 47.",
-						"1249185365": "Combat Sports fighter and multi-billionaire, Conor McGregor's background is shrouded in mystery. It seemed like he came out of nowhere and quickly dominated the scene. <br><br>He originally burst on to the MMA scene in the mid 2010’s, where with his charisma, brutality and skill, he quickly made a name for himself and won the hearts of the audience. He was unapologetic and funny… and the media fell in love with him. <br><br>During an interview, he was asked if there was anything left on his bucket list. His reply: \"Knock out Tim Quinn, because he is a rat and wannabe fighter – an insult to our profession\" – a comment about the CEO of Quantum Leap, who had recently become obsessed with the world of combat sports and a laughing stock within the combat sports community. It was a threat no one took too seriously... And little did he know that this simple taunt could one day become a potential reality.",
-						"1608843279": "\"Conor McGregor\" Has Escaped",
-						"1694445649": "Conor McGregor",
-						"1730062487": "Conor McGregor"
-					}
-				},
-				"0082330FE9D8487E": {
-					"english": {
-						"1413155516": "<li>Play Conor McGregor.</li>",
-						"2264948757": "Conor McGregor",
-						"2812006658": "<li>Assassinate Conor McGregor.</li><li>Eliminate only the target.</li><li>No bodies found.</li><li>Do not get compromised.</li><li>If you are detected by cameras, erase or destroy the evidence.</li>",
-						"3533091399": "<li>Assassinate Conor McGregor.</li>"
-					}
-				},
-				"00083A3CCE0896AD": {
-					"english": {
-						"347006097": "Conor McGregor",
-						"442363610": "Conor McGregor - Level 2",
-						"1094203075": "<li>Eliminate Conor McGregor who is part of The Ostentatious.</li>",
-						"1115518360": "Two level Arcade contract containing the Conor McGregor Elusive Target.",
-						"2193825505": "Conor McGregor",
-						"2630458484": "Conor McGregor - Level 1"
-					}
-				},
-				"001F0F3B7F11E788": {
-					"english": {
-						"3581909364": "Lethal Syringe II"
-					}
-				},
-				"008322D98E1CFE04": {
-					"english": {
-						"505629393": "COVID Vaccine",
-						"1270192259": "A syringe containing a single dose of a COVID vaccine. Safe and effective, approved by the FDA."
-					}
-				},
-				"0024A5A15AC9CC2F": {
-					"english": {
-						"2303723277": "3 Ball"
-					}
-				}
-			},
-			"localisation": {
-				"english": {
-					"UI_FIREARMS_HERO_SHOTGUN_EXOTIC01_NAME": "The Room Clearer",
-					"FIREARMS_HERO_WALLBANGER_NAME": "The Wallbanger",
-					"FIREARMS_HERO_PISTOL_ICA19_BLACKLILLY3_NAME": "1911 Charcoal",
-					"FIREARMS_HERO_SMG_TMP_NAME": "FMG-9 Covert",
-					"FIREARMS_HERO_PISTOL_CONCEPT5_DTI_NAME": "OCP Auto-9 DTI",
-					"FIREARMS_HERO_RIFLE_AK_BLACK_NAME": "AK-47 Black",
-					"UI_FIREARMS_AR_NEEDLEFACE": "CTAR Needle",
-					"UI_PROP_MELEE_SHURIKEN_BAT_NL_NAME": "Batarang (KO)",
-					"UI_PROP_MELEE_PURPLEWIRE": "Z Retard Wire"
-				}
-			}
-		},
-		{
-			"name": "Vanilla",
-			"tooltip": "No change to menu music",
-			"group": "Menu Music",
-			"type": "select",
-			"enabledByDefault": false
-		},
-		{
-			"name": "2016",
-			"tooltip": "Hitman 2016 main theme",
-			"group": "Menu Music",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/music/2016"]
-		},
-		{
-			"name": "Ave Maria",
-			"tooltip": "Franz Schubert's Ave Maria from Blood Money",
-			"group": "Menu Music",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/music/maria"]
-		},
-		{
-			"name": "Blood Money Main Theme",
-			"tooltip": "Jesper Kyd",
-			"group": "Menu Music",
-			"type": "select",
-			"enabledByDefault": true,
-			"contentFolders": ["content/music/main"]
-		},
-		{
-			"name": "Apocalypse",
-			"tooltip": "Jesper Kyd",
-			"group": "Menu Music",
-			"type": "select",
-			"enabledByDefault": false,
-			"contentFolders": ["content/music/apocalypse"]
-		},
-		{
-			"name": "Disable Online Resources",
-			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certain weapon details. Not necessary if using Peacock. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
-			"type": "checkbox",
-			"enabledByDefault": false,
-			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+  "version": "1.23.1",
+  "updateCheck": "https://github.com/charc0al/BM_Pack/releases/latest/download/updates.json",
+  "id": "Charc0al.BloodMoneyPack",
+  "name": "Blood Money Pack",
+  "description": "A collection of Blood Money themed mods, and more",
+  "authors": [
+    "Charc0al"
+  ],
+  "frameworkVersion": "2.33.33",
+  "options": [
+    {
+      "name": "None",
+      "tooltip": "Vanilla sounds",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": true
+    },
+    {
+      "name": "Real Silenced Pistols 1",
+      "tooltip": "Fixed version of Real Silenced Pistols (by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/silenced1"
+      ]
+    },
+    {
+      "name": "Real Silenced Pistols 2",
+      "tooltip": "Fixed version of Real Silenced Pistols 2 (unreleased mod by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/silenced2"
+      ]
+    },
+    {
+      "name": "Pistol Sounds 1",
+      "tooltip": "Real Silenced Pistols + Breaking Bad Unsilenced (by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/1"
+      ]
+    },
+    {
+      "name": "Pistol Sounds 2",
+      "tooltip": "Real Silenced Pistols 2 + Breaking Bad Unsilenced (by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/2"
+      ]
+    },
+    {
+      "name": "Mike's Silenced",
+      "tooltip": "Breaking Bad Mike's silenced pistols (by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/mike"
+      ]
+    },
+    {
+      "name": "Breaking Bad Unsilenced",
+      "tooltip": "Real Silenced Pistols (by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/bb_unsilenced"
+      ]
+    },
+    {
+      "name": "Breaking Bad - All",
+      "tooltip": "Mike's silenced + Breaking Bad Unsilenced (by Dexterous)",
+      "group": "PISTOL",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/pistolsounds/bb_all"
+      ]
+    },
+    {
+      "name": "Main",
+      "tooltip": "Main mod bundle. Includes: Blood Money Loadout, Versatile Syringes, No Poison Smoke, No Bullet Explosions, Enhanced Camera Zoom, Punch Glitch Mitigation, EMP Buff, Cyb's Shotgun Blindfire Fix, Baldy's Leviathan Scope Fix",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/bloodmoneypack",
+        "content/shotgunblindfire"
+      ]
+    },
+    {
+      "name": "Blood (deprecated - use More Blood COMPLETE instead!)",
+      "tooltip": "More blood mod, but updated to include extra weapons missing from it",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/MoreBlood"
+      ]
+    },
+    {
+      "name": "Bloody 47",
+      "tooltip": "2kpr's Bloody 47 mod. 47 bleeds when shot",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/Bloody47"
+      ]
+    },
+    {
+      "name": "Blood Money Loadout",
+      "tooltip": "Standard BM loadout items, changed capacity cost to 0 for freelancer so you don't always have to drop them.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/loadout"
+      ]
+    },
+    {
+      "name": "Boomsticks - Powerful Shotguns",
+      "tooltip": "Gives more knockback to shotguns and removes upkick. More like Blood Money. Download the full mod if you want more options.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/boomstick"
+      ]
+    },
+    {
+      "name": "Gun Mods",
+      "tooltip": "Buffs mag sizes and a few other properties of some ugly guns. Nothing crazy.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/gunmods"
+      ]
+    },
+    {
+      "name": "Throwables - knockdown",
+      "tooltip": "Changes certain lightweight throwables to only knock down",
+      "group": "Other",
+      "type": "checkbox",
+      "contentFolders": [
+        "content/throwables"
+      ]
+    },
+    {
+      "name": "Seeing Red",
+      "tooltip": "Blood Money style red low health filter",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/red"
+      ]
+    },
+    {
+      "name": "Focus + Blindfire",
+      "tooltip": "All weapons have focus + precise blind fire",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/focus_blindfire"
+      ]
+    },
+    {
+      "name": "Crowd Improvements",
+      "tooltip": "Crowd friendly fire and marrakesh shadows.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/crowd"
+      ]
+    },
+    {
+      "name": "Unlockables",
+      "tooltip": "Add bonus unlockables to the planning screen. Propane flask, frying pan, sniper case, among others.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/unlocks"
+      ]
+    },
+    {
+      "name": "Impact - Rifles",
+      "tooltip": "Realistic impact for assault rifles.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/impact/rifle"
+      ]
+    },
+    {
+      "name": "Impact - SMGs",
+      "tooltip": "Realistic impact for assault SMGs.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/impact/smg"
+      ]
+    },
+    {
+      "name": "Smaller Timer and Objectives",
+      "tooltip": "Smaller timer and objectives mod",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/smallobjectives"
+      ]
+    },
+    {
+      "name": "No Aiming Zoom",
+      "tooltip": "Camera doesn't zoom way in while aiming. More like Blood Money.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/zoom"
+      ]
+    },
+    {
+      "name": "Molotov Fixes",
+      "tooltip": "Molotov no longer explodes, fire counts as accident",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/molotov"
+      ]
+    },
+    {
+      "name": "Ragdoll Death",
+      "tooltip": "Ragdoll Death mod by Notex. Adding it here for now since it's removed from Nexus and github",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/ragdoll"
+      ]
+    },
+    {
+      "name": "China Door Hacking",
+      "tooltip": "You only need the dongle to get through doors in Chongqing, no need to do the stupid camera hacking.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/chinadoors"
+      ]
+    },
+    {
+      "name": "Durian Illegal in Bangkok",
+      "tooltip": "Makes the durian an illegal item in Bangkok, just like it is in real hotels there.",
+      "group": "Other",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/durian"
+      ]
+    },
+    {
+      "name": "Custom Localization",
+      "tooltip": "Minimalist HUD settings and a few other renames",
+      "group": "Other",
+      "type": "checkbox",
+      "localisationOverrides": {
+        "00D7C2D00F538B72": {
+          "english": {
+            "487572695": "Good morning 47. <br><br>Your target is the multi-billionaire MMA fighter, known simply as \"The Disruptor\". Tonight, he will be attending a duel at the Ark Society's headquarters on the Isle of Sgàil. His opponent is Tim Quinn, CEO of Quantum Leap and organizer of the event. <br><br>Mr. Quinn has lately become obsessed with the world of MMA, seeing himself as one of the best, though his talent is… questionable. It's a battle to the death, and the odds are certainly against him. <br><br>Some stakeholders have seen this as an opportunity to engage in a hostile takeover of Quantum Leap. And they will do everything they can to have The Disruptor win. However, our clients, still loyal to Quinn, have hired us to protect their asset and make sure this doesn't happen. <br><br>So do everything in your power to keep Quinn safe and stop Conor McGregor \"winning the fight\" at all cost. <br><br>Good luck 47.",
+            "1249185365": "Combat Sports fighter and multi-billionaire, Conor McGregor's background is shrouded in mystery. It seemed like he came out of nowhere and quickly dominated the scene. <br><br>He originally burst on to the MMA scene in the mid 2010’s, where with his charisma, brutality and skill, he quickly made a name for himself and won the hearts of the audience. He was unapologetic and funny… and the media fell in love with him. <br><br>During an interview, he was asked if there was anything left on his bucket list. His reply: \"Knock out Tim Quinn, because he is a rat and wannabe fighter – an insult to our profession\" – a comment about the CEO of Quantum Leap, who had recently become obsessed with the world of combat sports and a laughing stock within the combat sports community. It was a threat no one took too seriously... And little did he know that this simple taunt could one day become a potential reality.",
+            "1608843279": "\"Conor McGregor\" Has Escaped",
+            "1694445649": "Conor McGregor",
+            "1730062487": "Conor McGregor"
+          }
+        },
+        "0082330FE9D8487E": {
+          "english": {
+            "1413155516": "<li>Play Conor McGregor.</li>",
+            "2264948757": "Conor McGregor",
+            "2812006658": "<li>Assassinate Conor McGregor.</li><li>Eliminate only the target.</li><li>No bodies found.</li><li>Do not get compromised.</li><li>If you are detected by cameras, erase or destroy the evidence.</li>",
+            "3533091399": "<li>Assassinate Conor McGregor.</li>"
+          }
+        },
+        "00083A3CCE0896AD": {
+          "english": {
+            "347006097": "Conor McGregor",
+            "442363610": "Conor McGregor - Level 2",
+            "1094203075": "<li>Eliminate Conor McGregor who is part of The Ostentatious.</li>",
+            "1115518360": "Two level Arcade contract containing the Conor McGregor Elusive Target.",
+            "2193825505": "Conor McGregor",
+            "2630458484": "Conor McGregor - Level 1"
+          }
+        },
+        "001F0F3B7F11E788": {
+          "english": {
+            "3581909364": "Lethal Syringe II"
+          }
+        },
+        "008322D98E1CFE04": {
+          "english": {
+            "505629393": "COVID Vaccine",
+            "1270192259": "A syringe containing a single dose of a COVID vaccine. Safe and effective, approved by the FDA."
+          }
+        },
+        "0024A5A15AC9CC2F": {
+          "english": {
+            "2303723277": "3 Ball"
+          }
+        }
+      },
+      "localisation": {
+        "english": {
+          "UI_FIREARMS_HERO_SHOTGUN_EXOTIC01_NAME": "The Room Clearer",
+          "FIREARMS_HERO_WALLBANGER_NAME": "The Wallbanger",
+          "FIREARMS_HERO_PISTOL_ICA19_BLACKLILLY3_NAME": "1911 Charcoal",
+          "FIREARMS_HERO_SMG_TMP_NAME": "FMG-9 Covert",
+          "FIREARMS_HERO_PISTOL_CONCEPT5_DTI_NAME": "OCP Auto-9 DTI",
+          "FIREARMS_HERO_RIFLE_AK_BLACK_NAME": "AK-47 Black",
+          "UI_FIREARMS_AR_NEEDLEFACE": "CTAR Needle",
+          "UI_PROP_MELEE_SHURIKEN_BAT_NL_NAME": "Batarang (KO)",
+          "UI_PROP_MELEE_PURPLEWIRE": "Z Retard Wire"
+        }
+      }
+    },
+    {
+      "name": "Vanilla",
+      "tooltip": "No change to menu music",
+      "group": "Menu Music",
+      "type": "select",
+      "enabledByDefault": false
+    },
+    {
+      "name": "2016",
+      "tooltip": "Hitman 2016 main theme",
+      "group": "Menu Music",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/music/2016"
+      ]
+    },
+    {
+      "name": "Ave Maria",
+      "tooltip": "Franz Schubert's Ave Maria from Blood Money",
+      "group": "Menu Music",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/music/maria"
+      ]
+    },
+    {
+      "name": "Blood Money Main Theme",
+      "tooltip": "Jesper Kyd",
+      "group": "Menu Music",
+      "type": "select",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/music/main"
+      ]
+    },
+    {
+      "name": "Apocalypse",
+      "tooltip": "Jesper Kyd",
+      "group": "Menu Music",
+      "type": "select",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/music/apocalypse"
+      ]
+    },
+    {
+      "name": "Disable Online Resources",
+      "tooltip": "Allows for edits to the REPO, such as changing NPC names or certain weapon details. Not necessary if using Peacock. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "thumbs": [
+        "ConsoleCmd OnlineResources_Disable 1"
+      ]
+    }
+  ]
 }
